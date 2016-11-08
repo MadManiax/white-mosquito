@@ -1,0 +1,187 @@
+
+/* INIZIO EVENT ITEM */
+div.eventItem
+{
+    font-family: "rivannaregular", Verdana;
+    height: 120px;
+    width: 400px;
+    margin: 10px auto;
+    text-align: center;
+    color:#000;
+    text-shadow:0.8px 0.8px #000;
+    
+    
+}
+.events
+{
+    text-align: center;
+    font-family: "rivannaregular";
+    margin:10px auto;
+    font-size: 25px;
+    width: 400px;
+    color:#000;
+}
+.black
+{
+    color:black;
+    font-size: 40px;
+    text-shadow:0.8px 0.8px #000;
+}
+.bookingInfo
+{
+    float:right; font-size:70%;
+    font-family: "rivannaregular";
+}
+
+div.eventItem a
+{
+    /*color: #a80707;*/
+    text-decoration:none;
+}
+.eventItem_data
+{
+    font-size: 22px;
+}
+.eventItem_dove
+{
+    font-size: 22px;
+}
+.eventItem_locale
+{
+    font-size: 28px;
+}
+/* new section */
+.eventsPager
+{
+    width:200px;
+    margin: 20px auto;
+    font-size: 14px;
+    font-family: "rivannaregular", Verdana;
+    font-weight: bold;
+    text-align: center;
+}
+.eventsNoItems
+{
+    font-family: "rivannaregular", Verdana;
+    color:#000;
+    margin: 50px auto;
+    text-align: center;
+}
+/* new section */
+/*div.eventItem h3
+{
+    font-size: large;
+    font-weight: bold;
+    color: #a80707;
+}*/
+div.eventItem p
+{
+    font-size: small;
+    font-weight: normal;
+    color: #190101;
+    height:200px;
+    width:600px;
+
+}
+div.eventItem span
+{
+    font-size: xx-small;
+    font-weight: normal;
+    color: #190101;
+}
+div.eventItem div.left
+{
+    height: 270px;
+    width: 200px;
+    float: left;
+}
+div.eventItem div.left img
+{
+    height: 260px; 
+    width: 190px;
+    margin: auto;
+}
+div.eventItem div.right
+{
+    height: 270px;
+    width: 300px;
+    float: right;
+    padding: 2% 0% 0% 2%;
+}
+/* FINE EVENT ITEM */
+
+/* INIZIO EVENT DETAIL */
+div.eventDetail
+{
+    /*height:500px;*/
+    font-family: Verdana;      
+    margin: 2% 2%;
+}
+div.eventDetail div.contentLeft
+{
+    float:left;
+    width:320px;
+} 
+div.eventDetail div.contentLeft div.locandina
+{
+
+}
+div.eventDetail div.contentLeft div.locandina img
+{
+    height: 260px; 
+    width: 190px;
+    margin: auto;
+}
+div.eventDetail div.contentLeft div.eventInfo
+{
+
+}
+div.eventDetail div.contentLeft div.eventInfo ul
+{
+    list-style-type:none;
+    list-style-image:url(../../images/listItem_small.png);
+
+    font-size:small;       
+}
+div.eventDetail div.contentLeft div.eventInfo ul li
+{
+    vertical-align:middle;       
+    margin:2px 2px;
+}
+div.eventDetail div.contentLeft div.eventInfo span
+{
+    font-weight: bold;       
+}
+div.eventDetail div.contentRight div.eventDescription
+{
+    font-size: small;
+}
+/*div.eventDetail div.contentRight div.eventDescription h3
+{
+    font-size: large;
+    font-weight: bold;
+    color: #a80707;
+}*/
+div.eventDetail div.contentRight div.eventDescription span
+{
+    font-weight:bold;
+    color:Gray;    	 
+}
+div.eventDetail div.contentRight div.eventDescription ul
+{
+    list-style-type:none;
+    font-size:x-small;
+
+}
+div.eventDetail div.contentRight
+{
+    float:left;
+    width:520px;
+}
+
+div.eventDetail div.contentRight div.eventLocationMap
+{
+    margin-left:30px;
+    margin-top:10px;
+}
+/* FINE EVENT DETAIL */

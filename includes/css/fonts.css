@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: "Nadia Serif", Georgia; 
+    src: url(NADISN__.eot);
+    src: local('NADISN'), url('NADISN__.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'rivannaregular';
+    src: url('../../font/rivanna/rivanna_-webfont.eot');
+    src: url('../../font/rivanna/rivanna_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../font/rivanna/rivanna_-webfont.woff') format('woff'),
+         url('../../font/rivanna/rivanna_-webfont.ttf') format('truetype'),
+         url('../../font/rivanna/rivanna_-webfont.svg#rivannaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BooBooKittyRegular';
+    src: url('../../font/booboo-webfont.eot');
+    src: url('../../font/booboo-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../../font/booboo-webfont.woff') format('woff'),
+        url('../../font/booboo-webfont.ttf') format('truetype'),
+        url('../../font/booboo-webfont.svg#BooBooKittyRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MARIDAVIDRegular';
+    src: url('../../font/mari_david/maridavid-webfont.eot');
+    src: url('../../font/mari_david/maridavid-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../../font/mari_david/maridavid-webfont.woff') format('woff'),
+        url('../../font/mari_david/maridavid-webfont.ttf') format('truetype'),
+        url('../../font/mari_david/maridavid-webfont.svg#MARIDAVIDRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'menschthin';
+    src: url('../../font/mensch_thin/mensch-thin.eot');
+    src: url('../../font/mensch_thin/mensch-thin.eot?#iefix') format('embedded-opentype'),
+        url('../../font/mensch_thin/mensch-thin.woff') format('woff'),
+        url('../../font/mensch_thin/mensch-thin.ttf') format('truetype'),
+        url('../../font/mensch_thin/mensch-thin.svg#MARIDAVIDRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'ArvilSans';
+    src: url('../../font/arvil_sans/Arvil_Sans.eot');
+    src: url('../../font/arvil_sans/Arvil_Sans.eot?#iefix') format('embedded-opentype'),
+        url('../../font/arvil_sans/Arvil_Sans.woff') format('woff'),
+        url('../../font/arvil_sans/Arvil_Sans.ttf') format('truetype'),
+        url('../../font/arvil_sans/Arvil_Sans.svg#MARIDAVIDRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,167 @@
+
+body
+{
+    background-color:black;
+}
+div#background
+{
+    width:80%;
+    margin: 50px auto;
+}
+div.fadehover {                
+    width:600px;                
+    margin:0 auto;
+    color:black;
+}
+div.fadehover img {                
+    width: 600px;
+}
+
+img.Principal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;                
+}
+
+img.Faded {
+    position: absolute;  
+    left: 0;
+    top: 0;
+    opacity:0;                
+}
+div.supPrincipal
+{                
+    z-index: 20;
+}
+.indexfont a
+{
+    color: #a80707;
+}
+.indexfont
+{
+    font-family:"RivannaRegular","Trebuchet MS", Arial, Helvetica, sans-serif;
+    color:#c1bbbb;
+    font-size: 23px;
+}
+#rotating-item-wrapper {
+    position: relative;                
+}
+.rotating-item {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.font a
+{
+    color: #a80707;
+}
+.font
+{
+    font-family:"RivannaRegular","Trebuchet MS", Arial, Helvetica, sans-serif;
+    /*color:#c1bbbb;*/
+    /*color:#666;*/
+    color:black;
+    font-size: 14px;
+}
+#page {position:relative; width:600px;  height: 50px}
+#menu {position:absolute; top:0; left:0; width:100%; display:none;}
+/*dock styling...*/
+/*...centre the dock...*/
+#menu div.jqDockWrap {margin:0 auto;}
+/*...set the cursor...*/
+#menu div.jqDock {cursor:pointer;}
+/*label styling...*/
+div.jqDockLabel {font-weight:bold; font-style:italic; white-space:nowrap; color:#ffffff; cursor:pointer;}
+
+div.header
+{
+    height:200px;
+}
+div.basicInfo
+{                
+    height: 220px;    
+}
+h2
+{
+    color:#c1bbbb;
+    color: #a80707;
+    font-size: 23px;
+    font-weight: normal;
+}
+a.h2
+{
+    text-decoration: none;
+}
+div.basicInfo table
+{    
+    background-color: white; 
+    border:none;
+}            
+div.video
+{                
+    
+}
+div.videoContainer
+{
+           
+}
+div.videoContainer ul li a img
+{
+    height: 300px;
+}
+div.player
+{                
+            
+}
+div.playerContainer
+{                
+                                
+}
+
+div.foto
+{
+    
+
+}
+div.fotoContainer
+{                
+    height: 110px;
+}
+div.fotoContainer a img
+{
+    height: 100px;
+}
+
+div.presentazione
+{    
+
+}
+.centerAlignment
+{
+    text-align: center;
+}
+div.presentazioneContainer
+{
+    font-size:12px;
+    font-family: Verdana;
+    color: white;
+    font-weight: bold;                
+}
+.italic
+{
+    font-style: italic;            
+}
+.margin
+{
+    width: 650px;
+    margin: 20px auto;
+}
+
+.marginContainer
+{
+    width: 600px;
+    margin: 0 auto;
+}
+

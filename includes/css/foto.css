@@ -1,0 +1,54 @@
+.galContainer
+{
+    height:100%;
+}
+
+.txtContainer
+{
+    text-align:right;
+}
+
+.period
+{
+    width: 100%;
+}
+
+.sfasato
+{
+    margin-right: 0%; 
+    margin-left: 30%;
+}
+/* INIZIO GALLERY MENU */
+div.galleryMenu
+{    
+    width:700px;
+    height: 270px;
+    /*margin: 0 auto;*/
+}
+div.galleryMenu div.periodo
+{
+    vertical-align: middle;
+}
+div.galleryMenu div.periodo img
+{
+    height: 100px;
+}
+div.galleryMenu div.preview
+{
+    vertical-align: middle;
+}
+div.galleryMenu div.preview img
+{
+    height: 250px;
+}
+div.periodTitle
+{
+    margin:3px 0 0 0;
+
+}
+div.periodTitle img
+{
+    height:90px;
+
+}
+/* FINE GALLERY MENU */

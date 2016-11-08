@@ -1,0 +1,63 @@
+/* 
+    Document   : home
+    Created on : 18-apr-2013, 23.45.35
+    Author     : Maniax
+    Description:
+        Foglio di stile della pagina home.php
+*/
+
+
+
+/*
+div#content{
+
+    padding:5px 5px 5px 5px;
+    background: none;
+    /*zoom: 1;*/
+    /*filter: alpha(opacity=10);
+    opacity: 0.1;
+    //box-shadow:3px 3px 6px 1px #ffffff;*/
+    //box-shadow:none;
+    //text-shadow:3px 3px #000;
+    //z-index:8;
+    width:1000px;
+    height:3010px; 
+    margin:0 auto; 
+
+    color:#ffffff;
+}
+*/
+/*
+iframe {
+  -moz-transform: scale(0.25, 0.25); 
+  -webkit-transform: scale(0.25, 0.25); 
+  -o-transform: scale(0.25, 0.25);
+  -ms-transform: scale(0.25, 0.25);
+  transform: scale(0.25, 0.25); 
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+}
+
+*/
+.baseFont
+{
+    font-family: 'rivannaregular';
+    text-align: center; 
+    padding: 5px 5px; 
+    font-weight: bold; 
+    color: #fff;
+}
+
+div#menuWM.interno ul li a
+{
+    color:white;       
+    display:inline-block;
+}
+div#menuWM.interno ul li a b
+{
+    display: inline-block;
+    font-size: 30px;    
+}

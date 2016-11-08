@@ -1,0 +1,283 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>White Mosquito - Rock n' Roll experience</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <base href="http://www.whitemosquito.it/" />
+        <!--<base href="http://localhost:8081/whitemosquito.it.prod/" />-->
+        <script language="JavaScript" type="text/JavaScript">
+            if (navigator.userAgent.indexOf('MSIE') !=-1){
+                document.write('<link REL="SHORTCUT ICON" HREF="favicon.ico"/>');
+            }else{
+                document.write('<link REL="SHORTCUT ICON" HREF="favicon.png"/>');
+            }
+        </script>
+        <link rel="stylesheet" type="text/css" href="includes/css/fonts.css" media="screen" />
+        <link rel="stylesheet" href="includes/css/presentazione.css" type="text/css" media="screen" title="main stylesheet" charset="utf-8" />
+        <link rel="stylesheet" href="includes/prettyPhoto/css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+       
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script type="text/javascript" src="includes/js/infinite-rotator.js"></script>
+        <!--<script type="text/javascript" src="includes/js/jquery.jqDock.min.js"/>-->
+        
+         <script src="includes/prettyPhoto/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+        
+        
+        <script type="text/javascript" charset="utf-8">
+            /*function Animate(hover, principal, principal_opacity, faded, faded_opacity)
+            {
+                $(faded).css('display','none');
+                $(principal).css('opacity','0');
+                $(principal).stop().animate({"opacity": "1"}, 3000);
+                $(hover).hover(
+                function() {
+                    $(principal).stop().animate({"opacity": principal_opacity}, 1000);
+                    $(faded).stop().animate({"opacity": faded_opacity}, 2000); 
+                },
+                function() {
+                    $(principal).stop().animate({"opacity": faded_opacity}, 1000);
+                    $(faded).stop().animate({"opacity": principal_opacity}, 2000);
+                });
+            } */           
+            function presentationHandler()
+            {
+                $("div#presentazione").html($("div#presentazioneHdn").html().substring(0,500));
+                $("#close").hide();
+                $("#continua").show();
+                
+                $("#continua").click(function(){
+                    $("#close").show();
+                    $("#continua").hide();
+                    $("div#presentazione").html($("div#presentazioneHdn").html());
+                });
+                $("#close").click(function(){
+                    $("#close").hide();
+                    $("#continua").show();
+                    $("div#presentazione").html($("div#presentazioneHdn").html().substring(0,500));
+                });
+            };           
+            
+            $(document).ready(function(){                                
+                /*var dockOptions =
+                    { align: 'top' // horizontal menu, with expansion DOWN from a fixed TOP edge
+                    ,size:40
+                };
+                // ...and apply...
+                $('#menu').jqDock(dockOptions);*/
+                
+                $("a[rel^='prettyPhoto']").prettyPhoto();
+                presentationHandler();
+            });            
+        </script>
+        
+    </head>
+    <body>
+        <div id="background">
+            <div class="header">
+                <div class="fadehover">
+                    <!--[if IE]> -->
+                    <a  href="http://www.whitemosquito.it">
+
+                        <div id="rotating-item-wrapper">                        
+                            <img class="rotating-item" src="images/logo whitemosquito bianco.png" title="" alt=""  />
+                            <img class="rotating-item" src="images/logo whitemosquito rnr exp.png" title="" alt=""  />
+                            <!--<img class="rotating-item" src="images/logo whitemosquito entra.png" title="" alt=""  />-->
+                        </div>
+
+                    </a>
+                    <!--<![endif]-->
+                </div>
+            </div>
+
+            <div class ="presentazione font margin">
+                <a href="https://www.facebook.com/qeventi" target="_blank" class="h2"><h2>Q Eventi Presenta</h2></a>
+                <div class="presentazioneContainer marginContainer italic centerAlignment" id="presentazione"></div>
+                <div class="centerAlignment">
+                    <div style="cursor:pointer; color:#a80707;" id="continua">... Leggi Tutto ...</div>
+                    <div style="cursor:pointer; color:#a80707;"  id="close">... Chiudi ...</div>
+                </div>
+                <div id="presentazioneHdn" style="display:none">
+                    L'influenza maggiore del loro sound ha una chiara matrice seventies cara a gruppi come Led Zeppelin e AC/DC. <br/>
+                    Hanno un proprio stile che li rende caratteristici e imparagonabili. <br/>
+                    Fanno particolare attenzione all'effettistica e la sperimentazione, sempre presente nelle loro produzioni ma mai invadente.<br/>
+                    I loro brani, scritti in Italiano, hanno sempre un giusto equilibrio tra musica e parole, cercano un linguaggio semplice,<br/>
+                    ma non banale con testi pungenti, talvolta allegorici e ricercati. Il tutto sostenuto da una voce calda ed espressiva<br/>
+                    che si appoggia al pezzo con linee melodiche mai scontate.<br/>
+                    <br/>
+                    Hanno all'attivo 2 album ediverse collaborazioni importanti con musicisti del calibro di Ellade Bandini (De Andrè-Bertè),<br/>
+                    Michele Ascolese (De Andrè),Simona Bencini (Dirotta su cuba) e condiviso il palco con artisti come<br/>
+                    Fratelli Calafuria, Calibro 35, Vallanzaska, Amerigo Verardi, Meganoidi.<br/>
+                    Svolta importante nel loro percorso artistico l'apertura al concerto genovese dei Deep Purple nel maggio 2007.<br/>
+                    <br/>
+                    All'attività live che inizia a vederli tra i gruppi più attivi del panorama genovese, si affiancano nel 2008 collaborazioni significative<br/>
+                    con Emergency e Music for peace per la raccolta di fondi e generi alimentari per i bambini dell'africa.<br/>
+                    Nello stesso periodo ultimano il loro secondo lavoro in studio dando alla luce, nel giugno 2008,<br/>
+                    il loro primo album interamente autoprodotto dal titolo: "Personalità nascoste".<br/>
+                    <br/>
+                    Nel luglio 2008 vengono selezionati come band rock emergente al concorso nazionale Alternative version,<br/>
+                    e partecipano al festival "L'arte dell'incontro" organizzato da Franco Fasano e Fausto Bonfanti.<br/>
+                    <br/>
+                    La band prepara e propone anche una versione acustica del proprio repertorio, che viene accolta molto bene dalla stampa:<br/>
+                    "le quattro zanzare conquistano sin da subito l'attenzione dei presenti, grazie a brani asciutti ed immediati (Come se, Quello che non vedi),<br/>
+                    che deprivati della saturazione e della potenza che li veste abitualmente, rivelano un'inaspettata delicatezza”.<br/>
+                    <br/>
+                    Nel 2011 la  band va studio per la realizzazione del secondo album<br/>
+                    uscito a Febbraio 2012 per l’etichetta indipendente Q Label e dal titolo IL POTERE E LA SUA SIGNORA,<br/>
+                    registrato da Mattia Cominotto (Meganoidi) al GREEN FOG STUDIO di Genova.<br/>
+                    L’uscita dell’album è stata anticipata dal primo video ufficiale dalla Band :” IN FACCIA”,<br/>
+                    per la regia di Lucio Basadonne (ENTERTAIN studio di Genova).<br/>
+                    <br/>
+                    Attualmente la band è in giro per la promozione dell’album con il PUTTANTOUR 2012.<br/>
+                    <br/>
+                    <br/>
+                    STAY ROCK (.!..!)<br/>
+                </div>
+            </div>
+
+            <div class ="video font margin">
+                <a href="video.php" class="h2" target="_blank"><h2>VIDEO</h2></a>
+                <div class="videoContainer marginContainer">
+                    <ul class="gallery">
+                        <li style="display: inline;">
+                            <a href="http://www.youtube.com/watch?v=KDnxsBwsA4A" rel="prettyPhoto" title="Video ufficiale del singolo 'In faccia' tratto dall'album Il Potere e la sua Signora">
+                                <img src="images/experience.jpg" title="Official Video" alt="Official Video"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class ="foto font margin">
+                <a href="foto.php" class="h2" target="_blank"><h2>FOTO</h2></a>                
+                <div class="fotoContainer marginContainer">
+                    <ul class="gallery">
+                        <li style="display: inline;">
+                            <a href="images/experience.jpg" rel="prettyPhoto" title="White MosQuito - In Faccia Set">
+                                <img src="images/experience_thumb.jpg" title="Official Video" alt="Official Video" />
+                            </a>
+                        </li>
+                        <li style="display: inline;">
+                            <a href="ImagesRepository/AngeloAzzurro/00_corio_MG_0414w.jpg" rel="prettyPhoto" title="Da sinistra Maniax, Ghiaccio, Se, Sixx">
+                                <img src="ImagesRepository/AngeloAzzurro/thumbnails_00_corio_MG_0414w.jpg" title="The band" alt="The band" />
+                            </a>
+                        </li>
+                        <li style="display: inline;">
+                            <a href="http://sphotos-g.ak.fbcdn.net/hphotos-ak-ash4/422509_2604753010964_1882915969_n.jpg" rel="prettyPhoto" title="Presentazione 'Il Potere e la sua Signora'">
+                                <img src="http://sphotos-g.ak.fbcdn.net/hphotos-ak-ash4/422509_2604753010964_1882915969_n.jpg" title="On stage" alt="On stage" />
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="player font margin">
+                <a href="player.htm" class="h2" target="_blank"><h2>MUSICA</h2></a>
+                <div class="playerContainer marginContainer">
+                    <iframe width="100%" height="450" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F1914132%3Fsecret_token%3Ds-gSbH2&amp;auto_play=false&amp;show_artwork=true&amp;color=a80707"></iframe>
+                </div>
+            </div>
+            <div class="presentazione font margin">
+                <a href="press.php" class="h2" target="_blank"><h2>DICONO DI NOI</h2></a>
+                <div class="presentazioneContainer marginContainer centerAlignment">                    
+                    <br/>
+                    <i>"i White Mosquito sono eccezionali, testi e tematiche in italiano che funzionano. Siete superbi."</i><br/>
+                    <br/>
+                    <i>"Non Smetto", oh my god!!! Il brano per come è micidiale, non c'è altro da aggiungere."</i><br/>
+                    <br/>
+                    <b>Pier Paolo Lunesu, Italia di metallo</b><br/>
+                    <br/>
+                    <br/>
+                    <i>"il disco ha una sua personalità,molto bene Stato Confusionale, fedele manifesto di quella che la band può offrire: rock tirato e testo (in italiano) senza troppi fronzoli."</i><br/>
+                    <br/>
+                    <b>Francesco Casuscelli, Rockerilla</b><br/>
+                    <br/>
+                    <br/>
+                    <i>"fulminanti, decisi ed a presa immediata, davvero trascinanti."</i><br/>
+                    <br/>
+                    <b>Massimo Ponte, Genovatune</b><br/>
+                    <br/>
+                    <br/>
+                    <i>"La telefonata più incredibile della storia!! La voce del direttore di Radio19 che dice: «Ragazzi, White MosQuito aprirà il concerto dei Deep Purple». E da lì il delirio!!!"</i><br/>
+                    <br/>
+                    <b>Federica Verdina, Corriere Mercantile</b><br/>
+                </div>
+
+            </div>
+            <div class="basicInfo font margin">
+                <a href="contatti.php" class="h2" target="_blank"><h2>BOOKING</h2></a>
+                <table class="centerAlignment marginContainer">                    
+                    <tr><th>Agenzia</th><td>Q Eventi</td></tr>
+                    <tr><th>resp. artistico</th><td>Sergio Antonazzo</td></tr>
+                    <tr><th>e-mail</th><td><a href="mailto:qeventi@gmail.com">qeventi@gmail.com</a></td></tr>
+                    <tr><th>tel</th><td>346.0328404</td></tr>
+                    <tr><th>facebook</th><td><a href="http://www.facebook.com/qeventi" target="_blank">qeventi</a></td></tr>
+                </table>
+            </div>
+
+            <div class="basicInfo font margin">
+                <a href="contatti.php" class="h2" target="_blank"><h2>PRESS</h2></a>
+                <table class="centerAlignment marginContainer">                    
+                    <tr><th>Agenzia</th><td>Fabriksound</td></tr>
+                    <tr><th>resp.</th><td>Gianfranco Saba</td></tr>
+                    <tr><th>e-mail</th><td><a href="mailto:Fabriksound@gmail.com">fabriksound@gmail.com</a></td></tr>
+                    <tr><th>tel</th><td>348.8592429</td></tr>
+                    <tr><th>sito</th><td><a href="http://www.fabriksound.it" target="_blank">www.fabriksound.it</a></td></tr>
+                    <tr><th>facebook</th><td><a href="https://www.facebook.com/fabriksound" target="_blank">fabriksound</a></td></tr>
+                </table>
+            </div>
+
+            <div class="basicInfo font margin">
+                <a href="contatti.php" class="h2" target="_blank"><h2>CONTATTI</h2></a>                
+                <table class="centerAlignment marginContainer">
+                    <tr>
+                        <th>Genere:</th><td>Rock</td>
+                    </tr>
+                    <tr>
+                        <th>Da:</th><td>Genova</td>
+                    </tr>
+                    <tr>
+                        <th>Sito:</th><td><a href="http://www.whitemosquito.it">www.whitemosquito.it</a></td>
+                    </tr>
+                    <tr>
+                        <th>Info:</th><td><a href="mailto:info@whitemosquito.it">info@whitemosquito.it</a></td>
+                    </tr>                    
+                    <tr>
+                        <th>Locandina:</th><td><a href="images/locandina/whitemosQuito.jpg" target="_blank">scarica</a></td>
+                    </tr>                    
+                    <tr><td colspan="2">---------------------------------------</td></tr>
+                    <!--<tr>
+                        <td colspan="2">
+                            <div id="page">
+                                <div id='menu'>
+                                    <a href="http://www.youtube.com/WhiteMosQuitoBand" TARGET="_blank" title='YouTube'>
+                                        <img class="followImg" src="images/social/youtube.png" title="follow white mosquito" alt=''/>
+                                    </a>
+                                    <a href='http://www.facebook.com/WhiteMosQuitoRock' title='Facebook' TARGET="_blank">
+                                        <img class="followImg" src="images/social/facebook.png" title="follow white mosquito" alt=''/>
+                                    </a>
+                                    <a href="http://www.myspace.com/whitemosquitoband" TARGET="_blank" title='MySpace'>
+                                        <img class="followImg" src="images/social/myspace.png" title="follow white mosquito" alt=''/>
+                                    </a>
+                                    <a href="https://twitter.com/whitemosquito" TARGET="_blank" title='Twitter'>
+                                        <img class="followImg" src="images/social/twitter.png" title="follow white mosquito" alt=''/>
+                                    </a>
+                                    <a href="http://www.rockit.it/whitemosquito" TARGET="_blank" title='RockIT'>
+                                        <img class="followImg" src="images/social/link_rockit.png" title="follow white mosquito" alt=''/>
+                                    </a>
+                                    <a href="https://plus.google.com/103687039580096180150/posts" TARGET="_blank" title='Google+'>
+                                        <img class="followImg" src="images/social/google-plus.png" title="follow white mosquito" alt=''/>
+                                    </a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>-->
+                </table>
+
+            </div>
+        </div>
+    </body>
+</html>
