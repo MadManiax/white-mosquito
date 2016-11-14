@@ -46,10 +46,20 @@
 ?>
 <!-- bxSlider Javascript file -->
 <script src="includes/jquery.bxslider/jquery.bxslider.min.js"></script>
-<!-- <script type='text/javascript' src='includes/page_js/home.js'></script> -->
+<script src="includes/jquery.bxslider/plugins/jquery.fitvids.js"></script>
+
 <script type="text/javascript">
   $(document).ready(function(){
-  $('.bxslider').bxSlider();
+  $('#imageSlider').bxSlider({
+    auto:true,
+    autoControls: true
+  });
+  $('#videoSlider').bxSlider({
+    video: true,
+    useCSS: false,
+    auto:true,
+    autoControls: true
+  });
 });
 
 </script>
@@ -66,17 +76,11 @@
 //Buffer larger content areas like the main page content
 ob_start();
 ?>
-<!--<div>
-	<div style="font-size: 50px;" class="baseFont" id="cap1">
-    !--Il rock and roll morirà entro giugno--
-</div>
-<div style="font-size: 30px;" class="baseFont" id="cap2">
-    !--Variety 1965--
-</div>-->
-	
-<ul class="bxslider">
+
+<h3>Images</h3>	
+<ul class="bxslider" id="imageSlider">
   <?php
-    $gallery = DAOFactory::getDatGallerieDAO()->load(21);
+    $gallery = DAOFactory::getDatGallerieDAO()->load(28);//queryByTitle("ImageSlider");
 
     $images = DAOFactory::getDatImmaginiDAO()->queryByIdGalleria($gallery->id);
     foreach($images as $image)
@@ -89,10 +93,24 @@ ob_start();
     }
 ?>
 </ul>
-<script type="text/javascript">
-  
 
-</script>
+<h3>Videos</h3>
+<ul id="videoSlider" class="bxslider">
+<li>
+
+    <iframe src="http://www.youtube.com/embed/vCUHvT7IG4Q" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </li>
+  <li>
+    <iframe src="http://www.youtube.com/embed/KDnxsBwsA4A" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </li>
+  <li>
+    <iframe src="http://www.youtube.com/embed/DD0BmgEEjW0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </li>
+  <li>
+    <iframe src="http://www.youtube.com/embed/8opta3y6nPE" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </li>
+  
+</ul>
 
 <?php
 //Assign all Page Specific variables

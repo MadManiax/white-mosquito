@@ -202,3 +202,7 @@
 	font-size: .85em;
 	padding: 10px;
 }
+
+#imageSlider img {
+	/*height: 200px;*/
+}
