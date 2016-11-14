@@ -191,6 +191,60 @@ div#sopraheader_new
     background: url(../../images/bg_sopraheader_new.png) top center no-repeat #fff;
 }
 
+/* -------------------------- INIZIO FOOTER -------------------------- */
+
+div#footer
+{
+    width:1030px;
+    margin:20px auto;
+    /*padding: 1%;*/
+    background-color: #dad8d8;
+    box-shadow:3px 3px 6px 1px #000000;
+    zoom: 1;
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+    height: 160px;
+    /*height: auto;*/
+
+}
+div#shareFooter
+{
+    float:right;
+    margin-right:100px;
+    margin-top:100px;
+}
+#footer img
+{
+    vertical-align:middle;
+    /*margin:20px 0px 20px 15px;    */
+}
+.footerContent{
+    margin-top: 5px;
+    margin-bottom: 3%;
+    
+}
+.socialfooter
+{
+    font-size: 14px;
+   margin-right: 20%;
+}
+.socialfooter img
+{
+    height: 30px;
+}
+
+.contacts
+{
+margin-left: 20%;
+}
+
+#footer ul
+{
+    list-style-type: none;
+}
+
+/* -------------------------- FINE FOOTER -------------------------- */
+
 /* -------------------------- INIZIO CONTENT -------------------------- */
 
 
@@ -394,31 +448,7 @@ a.menuItem b
     display: block;
 }*/
 
-/* -------------------------- INIZIO FOOTER -------------------------- */
 
-div#footer
-{
-    margin-top:20px;
-    width:100%;
-    text-align:right;
-    font-size:11px;
-    color:#c1bbbb;
-
-
-}
-div#footer div#shareFooter
-{
-    float:right;
-    margin-right:100px;
-    margin-top:100px;
-}
-#footer img
-{
-    vertical-align:middle;
-    margin:20px 0px 20px 15px;
-}
-
-/* -------------------------- FINE FOOTER -------------------------- */
 
 
 

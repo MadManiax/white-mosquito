@@ -7,8 +7,8 @@
  */
 class ConnectionProperty{
 	private static $host = 'localhost:3306';
-	private static $user = 'whiteMdb';
-	private static $password = 'mosquito2012';
+	private static $user = 'root';
+	private static $password = '';
 	private static $database = 'maniax_whitemosquitoPROD';
 
 	public static function getHost(){
