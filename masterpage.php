@@ -71,7 +71,7 @@
                     <!-- sample of a menu -->
                     <div id="menuWM" class="interno">
                         <ul>	
-                            <li><a href="index.php" title="home page - White MosQuito"><img id="indexImg" src="images/logo_whitemosquito.png" height="60" border="0" alt="home page - white mosquito" title="home page - white mosquito" /></a></li>
+                            <li class="logo"><a href="index.php" title="home page - White MosQuito"><img id="indexImg" src="images/logo_whitemosquito.png" height="60" border="0" alt="home page - white mosquito" title="home page - white mosquito" /></a></li>
                             <li><a><b>S</b></a></li>
                             <li><a><b>U</b></a></li>
                             <li><a><b>P</b></a></li>
@@ -84,7 +84,7 @@
                     </div>
 
                     
-                    <h1 class="page"><?php echo $pageInternaltitle; ?></h1>
+                    <!--<h1 class="page"><?php echo $pageInternaltitle; ?></h1>-->
 
                     
                     <?php require_once('model/Rendering/ShareContainer.php'); ?>
@@ -128,6 +128,7 @@
 
                 <!--  INIZIO FOOTER-->
                 <div id="footer"> 
+                <div>
                         <ul class="contacts footerContent left">
                             <li>Booking: <a href="mailto:booking@whitemosquito.it">booking@whitemosquito.it</a></li>
                             <li>Info: <a href="mailto:booking@whitemosquito.it">info@whitemosquito.it</a></li>
@@ -159,7 +160,8 @@
                                 </a>
                             </li>
 
-                        </ul>      
+                        </ul>    
+                        </div>  
                 </div>
                 <!--  FINE FOOTER -->
             </div>

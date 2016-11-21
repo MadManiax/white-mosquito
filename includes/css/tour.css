@@ -3,9 +3,9 @@
 div.eventItem
 {
     font-family: "rivannaregular", Verdana;
-    height: 120px;
-    width: 400px;
-    margin: 10px auto;
+    height: 10%;
+    width: 30%;
+    margin: 1% auto;
     text-align: center;
     color:#000;
     text-shadow:0.8px 0.8px #000;
@@ -17,14 +17,14 @@ div.eventItem
     text-align: center;
     font-family: "rivannaregular";
     margin:10px auto;
-    font-size: 25px;
-    width: 400px;
+    font-size: 2vw;
+    width: 95%;
     color:#000;
 }
 .black
 {
     color:black;
-    font-size: 40px;
+    font-size: 3vw;
     text-shadow:0.8px 0.8px #000;
 }
 .bookingInfo
@@ -53,9 +53,9 @@ div.eventItem a
 /* new section */
 .eventsPager
 {
-    width:200px;
-    margin: 20px auto;
-    font-size: 14px;
+    width:100%;
+    margin: 2% auto;
+    font-size: 0.8vw;
     font-family: "rivannaregular", Verdana;
     font-weight: bold;
     text-align: center;
@@ -64,8 +64,9 @@ div.eventItem a
 {
     font-family: "rivannaregular", Verdana;
     color:#000;
-    margin: 50px auto;
+    margin: 4% auto;
     text-align: center;
+    font-size:1.8vw;
 }
 /* new section */
 /*div.eventItem h3

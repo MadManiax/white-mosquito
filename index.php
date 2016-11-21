@@ -151,7 +151,7 @@ include("model/Rendering/PressRender.php");
 //Assign all Page Specific variables
 $pagecontent = ob_get_contents();
 ob_end_clean();
-$pagetitle = "Home - White Mosquito";
+$pagetitle = "White Mosquito - Official Web Site";
 $pageInternaltitle = "Index";  //Apply the template
 include("masterpage.php");
 ?>

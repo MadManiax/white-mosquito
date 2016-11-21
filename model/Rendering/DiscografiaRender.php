@@ -22,7 +22,9 @@
 			, array("Fino a farmi male", "03:49")
         );
         include("model/Rendering/DiscoItem.php");
-
+?>
+<div class="clear"></div>
+<?php
 //Personalita nascoste
         $discoImgSrc = "images/coverAlbum/personalitaNascoste.jpg";
         $discoTitle = "Personalit&agrave; nascoste";

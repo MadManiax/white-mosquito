@@ -67,7 +67,7 @@ function TextTyper(id,text){
 var menuFader = {
     fade: function ()
     {
-        $("div#menuWM.interno ul li a b").delay(1000).animate({fontSize:"20px"},1000);                        
+        $("div#menuWM.interno ul li a b").delay(1000).animate({fontSize:"1.7vw"},1000);                        
         $("div#menuWM.interno ul li a").animate({color:"#5A5A5A"},4000);                        
     }
 };        
