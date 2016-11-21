@@ -12,7 +12,7 @@
 <meta name="title" content="White MosQuito - Official Website"/>
 <meta name="description" content="Gli amici dei white mosquito"/>
 <meta name="keywords" content="white mosquito, ascolta, musica, personalità nascoste, in faccia, il potere e la sua signora"/>
-if(isset($_GET['eventID']))
+<?php if(isset($_GET['eventID']))
 {
     $idEventoT = $_GET['eventID'];
     $eventT = DAOFactory::getDatEventsDAO()->load($idEventoT);
@@ -86,8 +86,8 @@ if(isset($_GET['eventID']))
 //Buffer larger content areas like the main page content
 ob_start();
 ?>
-
-<h3>Videos</h3>
+<div class="stack">
+<h1 class="center">Videos</h1>
 <ul id="videoSlider" class="bxslider">
 <li>
 
@@ -104,14 +104,17 @@ ob_start();
   </li>
   
 </ul>
-
-<h3>Tour</h3>
+</div>
+<div class="stack">
+<h1 class="center">Tour</h1>
 
 <?php
 include_once("model/Rendering/EventsRender.php");
 ?>
+</div>
 
-<h3>Images</h3>	
+<div class="stack">
+<h1 class="center">Images</h1>	
 <ul class="bxslider" id="imageSlider">
   <?php
     $gallery = DAOFactory::getDatGallerieDAO()->load(28);//queryByTitle("ImageSlider");
@@ -127,18 +130,22 @@ include_once("model/Rendering/EventsRender.php");
     }
 ?>
 </ul>
+</div>
 
-<h3>Discografia</h3>
+<div class="stack">
+<h1 class="center">Discografia</h1>
 <?php
 include("model/Rendering/DiscografiaRender.php");
 ?>
+</div>
 
-<h3>Press</h3>
+<div class="stack">
+<h1 class="center">Press</h1>
 
 <?php
 include("model/Rendering/PressRender.php");
 ?>
-
+</div>
 
 <?php
 //Assign all Page Specific variables

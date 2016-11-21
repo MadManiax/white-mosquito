@@ -18,11 +18,7 @@ body
     background-repeat: no-repeat;
     background-position: center center;
     min-height: 100%;
-    z-index:3;
-    filter: alpha(opacity=90);
-    opacity: 0.9;
 }
-
 
 
 body.hp
@@ -113,9 +109,7 @@ p
 
 h1
 {
-    font-weight:bold;
-    font-size: 3em;
-    color:#ce5e1c;
+    font-weight:normal;
 }
 
 
@@ -147,7 +141,7 @@ h1.page
 h2
 {
     display:inline-block;
-    font-weight:bold;
+    font-weight:normal;
     padding:0px;
     color:#ce5e1c;
     font-size:12px;
@@ -155,7 +149,6 @@ h2
     margin:0px;
     letter-spacing:0.1em;
     font-family: Georgia, "Times New Roman", Times, serif;
-    color:#ce5e1c;
 }
 
 h2 a
@@ -175,7 +168,7 @@ h2 a:hover
 div#container
 {
     min-height: 100%;
-    width:95%;
+    width:1030px;
     margin:0px auto;
     padding:0px;
 
@@ -185,27 +178,24 @@ div#container
 
 /* -------------------------- INIZIO HEADER -------------------------- */
 
-
-
 div#header
 {
     /*height:100%;*/
-    max-width:85%; 
+    width:1030px;
     margin:0px auto;
-
     background-color: #dad8d8;
     box-shadow:3px 3px 6px 1px #000000;
 
-    /*zoom: 1;
+    zoom: 1;
     filter: alpha(opacity=90);
-    opacity: 0.9;*/
+    opacity: 0.9;
 }
 
 
 div#sopraheader_new
 {
-    height:30%;
-    max-width:100%;
+    height:24px;
+    width:100%;
     margin:0px auto;
     padding:0px;
     background: url(../../images/bg_sopraheader_new.png) top center no-repeat #fff;
@@ -215,25 +205,23 @@ div#sopraheader_new
 
 div#footer
 {
-    width:85%;
-    margin:0px auto;
+    width:1030px;
+    margin:20px auto;
     /*padding: 1%;*/
     background-color: #dad8d8;
     box-shadow:3px 3px 6px 1px #000000;
     zoom: 1;
     filter: alpha(opacity=90);
     opacity: 0.9;
-    min-height: 100px;
-    color:#000;
+    height: 160px;
     /*height: auto;*/
-    margin-bottom:10%;
 
 }
 div#shareFooter
 {
     float:right;
-    margin-right:10%;
-    margin-top:10%;
+    margin-right:100px;
+    margin-top:100px;
 }
 #footer img
 {
@@ -241,20 +229,18 @@ div#shareFooter
     /*margin:20px 0px 20px 15px;    */
 }
 .footerContent{
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 5px;
+    margin-bottom: 3%;
     
 }
 .socialfooter
 {
-    /*font-size: 5%;*/
+    font-size: 14px;
    margin-right: 20%;
-
 }
 .socialfooter img
 {
-    height: 3%;
-
+    height: 30px;
 }
 
 .contacts
@@ -270,28 +256,21 @@ margin-left: 20%;
 /* -------------------------- FINE FOOTER -------------------------- */
 
 /* -------------------------- INIZIO CONTENT -------------------------- */
-.stack{
-    background-color:#dad8d8;
-    width: 97%;
-    height: 100%;
-    padding: 8px 8px 8px 8px;
-    margin-bottom: 5%;
+
+
+div#content
+{
+    width:1000px;
+    /*height:1400px !important; height: auto;  /* a fine lavori al 100%*/
+    height: auto;
+    margin:20px auto 0px;
+    padding:5px 5px 5px 5px;
+    background-color: #dad8d8;
     zoom: 1;
     filter: alpha(opacity=90);
     opacity: 0.9;
     box-shadow:3px 3px 6px 1px #000000;
     z-index:8;
-}
-
-div#content
-{
-    width:80%;
-    /*height:1400px !important; height: auto;  /* a fine lavori al 100%*/
-    height: auto;
-    margin:2% auto 0px;
-    padding:5px 5px 5px 5px;
-    /*background-color: #dad8d8;*/
-    
     
 }
 
@@ -305,9 +284,59 @@ div.column_content.border
 {
     border:1px solid #c1bbbb;
     height:100%;
-    width:35%;
+    width:350px;
     margin:0px;
 }
+
+div.column_content.biografia
+{
+    height:100%;
+    width:100%;
+    margin:0px;
+}
+
+div.column_content.biografia p
+{
+    clear:none;
+    width:50%;
+    float:left;
+}
+
+div.column_content.biografia img
+{
+    float:left;  /*  ora è :left per la pagina contatti, era right per la vecchia pagina di biografia_old.htm*/
+    margin:0px 20px 0px 0px;
+}
+
+.orange
+{
+    color:#CE5E1C;
+    font-size:12px;
+}
+
+div.column_content.biografia_new
+{
+    height:520px;
+    width:960px;
+    margin:0px;
+    background:url(../../images/bg_biografia.jpg) top left no-repeat;
+}
+
+div.column_content.biografia_new p
+{
+    clear:none;
+    width:50%;
+    height:1200px;
+    padding:40px 20px 0px;
+    float:right;
+    background:url(../../images/bg_p_biografia.png) top left repeat;
+}
+
+div.column_content.biografia_new img
+{
+    float:right;
+}
+
 
 
 
@@ -315,7 +344,7 @@ div.column_content.border
 
 div#menuWM
 {
-    width:93%;
+    width:960px;
     margin:0px auto 0px;
     padding:10px 0px 0px;
 
@@ -335,9 +364,9 @@ div#menuWM ul li
     color:#c1bbbb;
     
     /*font-size:16px;*/
-    
-    font-size:1.5%;
-    margin:0px 3%;
+    font-size:20px;
+    font-size:16px;
+    margin:0px 30px;
     font-family: "menschthin","ArvilSans","rivannaregular",'BooBooKittyRegular';   
 }
 div#menuWM ul li b
@@ -384,7 +413,7 @@ div#menuWM.interno ul li
 div#menuWM.interno_en ul li
 {
     color:#c1bbbb;
-    font-size:1.5%;
+    font-size:16px;
     margin:0px 0px 0px 10px;
     display:inline; /* per bug IE6 */
 }
@@ -392,13 +421,13 @@ div#menuWM.interno_en ul li
 div#menuWM.interno ul li img
 {
     vertical-align:middle;
-    margin:0px 11% 0px 0px;
+    margin:0px 120px 0px 0px;
     display:inline; /* per bug IE6 */
 }
 
 div#menuWM.interno ul li img.en
 {
-    margin:0px 25% 0px 0px;
+    margin:0px 265px 0px 0px;
 }
 
 div#menuWM.interno ul li a
@@ -412,7 +441,7 @@ div#menuWM.interno ul li a
 div#menuWM.interno ul li a b
 {
     display: inline-block;
-    font-size: 2%;    
+    font-size: 20px;    
 }
 div#menuWM.interno ul li a:hover
 {
@@ -435,7 +464,46 @@ a.menuItem b
 
 
 
+/* INIZIO MERCH ITEM */
+h3
+{
+    font-family: "ArvilSans","rivannaregular",Verdana,"MARIDAVIDRegular";
+    font-weight: bold;
+    font-size: 22px;
+    color:#A80707;
+}
+div.merchItem
+{
+    width:700px;
+    height:250px;
+}
 
+div.merchItem div.merchLeft img
+{
+    vertical-align:middle;
+    width:180px;
+}
+div.merchItem div.merchRight
+{
+
+}
+div.merchItem div.merchRight ul
+{
+    list-style-type:none;
+    list-style-image:url(../../images/listItem_small.png);
+
+    font-size:small;       
+}
+div.merchItem div.merchRight ul li
+{
+    vertical-align:middle;       
+    margin:2px 2px;
+}
+div.merchItem div.merchRight span
+{
+    font-weight: bold;       
+}
+/* FINE MERCH ITEM */
 
 /* INIZIO TABLE SORTER */
 /* tables */
@@ -480,6 +548,70 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
 }
 
 /* FINE TABLE SORTER */
+table.newsTable
+{
+    border: none;
+    font-size: 12px;
+    font-family: 'Trebuchet MS','MARIDAVIDRegular', Verdana;   
+    width:700px;
+}
+
+div.newsTable
+{
+    width:650px;
+    /*background-image: url(../../images/newsheader.jpg);*/
+    background-repeat:  repeat-x;
+    color: #000; 
+    /*height:500px;*/
+}
+table.newsTable tr
+{
+    height: 40px;
+}
+table.newsTable th
+{
+    color: #a80707;  
+    font-size: 16px;
+    /*    font-weight: bold;*/
+    /*background-color: #878686;*/
+    background-image: url(../../images/newsheader.jpg);
+    background-repeat:  repeat-x;
+    cursor: pointer;
+
+}
+table.newsTable td
+{
+    padding: 2px;
+}
+
+table.newsTable td a
+{
+    color: #a80707;
+}
+
+/*#newAlbumBack
+{
+    width:1500px; 
+    height:2000px; 
+    z-index:20;
+    opacity:0.4;
+    filter:alpha(opacity=40); 
+    background-color: #000;
+    display:none; 
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+#newAlbumPopup
+{
+    display:none;
+    width:1000px;
+    z-index:100;
+    position:absolute;
+    left:170px;
+    top:50px;   
+    background-color:black;
+}*/
 
 
 /* Press Item -begin */
@@ -559,13 +691,13 @@ div#condividi
 
 div#albumContainer
 {
-    width: 90%;
-    margin:5% auto;
+    width: 800px;
+    margin:50px auto;
 }
 div#album
 {
-    width: 90%;
-    margin:2% auto;
+    width: 800px;
+    margin:20px auto;
     text-align: right;
 }
 a#merchOrder
