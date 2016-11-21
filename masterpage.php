@@ -72,11 +72,19 @@
                     <div id="menuWM" class="interno">
                         <ul>	
                             <li><a href="index.php" title="home page - White MosQuito"><img id="indexImg" src="images/logo_whitemosquito.png" height="60" border="0" alt="home page - white mosquito" title="home page - white mosquito" /></a></li>
-                            <li><a class="menuItem" href="news.php">new<b>S</b></a></li>
+                            <li><a><b>S</b></a></li>
+                            <li><a><b>U</b></a></li>
+                            <li><a><b>P</b></a></li>
+                            <li><a><b>E</b></a></li>
+                            <li><a><b>R</b></a></li>
+                            <li><a><b>E</b></a></li>
+                            <li><a><b>G</b></a></li>
+                            <li><a><b>O</b></a></li>
+                            <!-- <li><a class="menuItem" href="news.php">new<b>S</b></a></li>
                             <li><a class="menuItem" href="tour.php">to<b>U</b>r</a></li>
                             <li><a class="menuItem" href="press.php"><b>P</b>r<b>E</b>ss</a></li>
                             <li><a class="menuItem" href="discografia.php">discog<b>R</b>afia</a></li>
-                            <li><a class="menuItem" href="#"><b>EGO</b></a></li>
+                            <li><a class="menuItem" href="#"><b>EGO</b></a></li> -->
                         </ul>                        
                     </div>
 
@@ -86,14 +94,22 @@
                     
                     <?php require_once('model/Rendering/ShareContainer.php'); ?>
 
-                    <div id="cp_widget_b29b0f2d-d604-4364-a868-8d165a66784a">...</div><script type="text/javascript">
+                    <div id="cp_widget_12c4ef5e-fe98-4b91-adc8-c98d37613baf">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_12c4ef5e-fe98-4b91-adc8-c98d37613baf"; cpo["_fid"] = "AoMALzNrAK9B";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script><noscript>Powered by Cincopa <a href='https://www.cincopa.com/video-portal'>Video Portal</a> for Business solution.<span>no name</span><span>Sono il colpevole</span><span>Personalità Nascoste</span><span>Quello che non vedi</span><span>Personalità Nascoste</span><span>In faccia</span><span>Il Potere e la sua Signora</span><span>Circostanze</span><span>Il Potere e la sua Signora</span><span>Stato Confusionale</span><span>Il Potere e la sua Signora</span><span>Manifesto</span><span>Il Potere e la sua Signora</span><span>Nuvola</span><span>Il Potere e la sua Signora</span><span>Come Se</span><span>Personalità Nascoste</span></noscript>
+
+                    <!-- <div id="cp_widget_b29b0f2d-d604-4364-a868-8d165a66784a">...</div><script type="text/javascript">
 var cpo = []; cpo["_object"] ="cp_widget_b29b0f2d-d604-4364-a868-8d165a66784a"; cpo["_fid"] = "AoMALzNrAK9B";
 var _cpmp = _cpmp || []; _cpmp.push(cpo);
 (function() { var cp = document.createElement("script"); cp.type = "text/javascript";
 cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
 var c = document.getElementsByTagName("script")[0];
 c.parentNode.insertBefore(cp, c); })(); </script><noscript>Powered by Cincopa <a href='https://www.cincopa.com/video-portal'>Video Portal</a> for Business solution.<span>no name</span><span>Sono il colpevole</span><span>Personalità Nascoste</span><span>Quello che non vedi</span><span>Personalità Nascoste</span><span>In faccia</span><span>Il Potere e la sua Signora</span><span>Circostanze</span><span>Il Potere e la sua Signora</span><span>Stato Confusionale</span><span>Il Potere e la sua Signora</span><span>Manifesto</span><span>Il Potere e la sua Signora</span><span>Nuvola</span><span>Il Potere e la sua Signora</span><span>Come Se</span><span>Personalità Nascoste</span></noscript>
-                </div>
+                </div> -->
 
                 <!--  FINE HEADER -->
 
@@ -140,22 +156,22 @@ c.parentNode.insertBefore(cp, c); })(); </script><noscript>Powered by Cincopa <a
                         <ul class="socialfooter footerContent right">
                             <li>
                                 <a href="http://www.youtube.com/WhiteMosQuitoBand" TARGET="_blank" title='YouTube'>
-                                    <img src="images/social/yt.png" title="follow white mosquito" alt=''/>
+                                    YouTube
                                 </a>
                             </li>
                             <li>
                                 <a href='http://www.facebook.com/pages/White-MosQuito/42106554501' title='Facebook' TARGET="_blank">
-                                    <img src="images/social/fb.png" title="follow white mosquito" alt=''/>
+                                    Facebook
                                 </a>
                             </li>
                             <li>
                                 <a href="https://twitter.com/whitemosquito" TARGET="_blank" title='Twitter'>
-                                    <img src="images/social/tw.png" title="follow white mosquito" alt=''/>
+                                    Twitter
                                 </a>
                             </li>
                             <li>
-                                <a href="https://plus.google.com/103687039580096180150/posts" TARGET="_blank" title='Google+'>
-                                    <img src="images/social/g+.png" title="follow white mosquito" alt=''/>
+                                <a href="https://open.spotify.com/artist/3FqevB7iN9ion5HWntFU43" TARGET="_blank" title='Google+'>
+                                    Spotify
                                 </a>
                             </li>
 

@@ -163,13 +163,11 @@
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/audiojs",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/jquery.bxslider",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/class",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/class/dto",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/Rendering"
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/jquery.bxslider"
 	],
 	"file_history":
 	[
+		"/C/Program Files (x86)/WinMerge/Filters/SourceControl.flt",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/class/dao/DatGallerieDAO.class.php",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/class/dao/DatEventsDAO.class.php",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/Rendering/GalleryItem.php",
@@ -188,7 +186,7 @@
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{

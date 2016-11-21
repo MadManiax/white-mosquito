@@ -6,12 +6,18 @@ $FileDao = DAOFactory::getFilesDAO();
 
 $event = $element_pager;
 $Image = $ImageDao->load($event->idDATImmagineLocandina);
-$File = $FileDao->load($Image->filesID);
+$File = "#";
+if($Image != null)
+{    
+    $File = $FileDao->load($Image->filesID);
+    $eventImgAlt = $Image->title;
+    $eventImgTitle = $Image->title;
+    $eventImgSrc = $File->filesName;
+}
 //$event->id;
 $eventId = $event->id;
-$eventImgSrc = $File->filesName;
-$eventImgAlt = $Image->title;
-$eventImgTitle = $Image->title;
+
+
 $eventTitle = $event->title;
 $eventPub = $event->locale;
 $eventDate = date('d F Y ', strtotime($event->data));

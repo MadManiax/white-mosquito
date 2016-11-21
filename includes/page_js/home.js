@@ -76,18 +76,19 @@ var menuFader = {
 
 
 $(document).ready(function(){   
-    menuFader.fade();
+    /*
     var textCap1 = new TextTyper("div#cap1","Il rock and roll morirà entro giugno");        
     var textCap2 = new TextTyper("div#cap2","Variety 1965");          
     
     textCap1.type();
     
-    textCap2.type();
+    textCap2.type();*/
 
     //colorChanger.change();
-    var cChanger = new ColorChanger("a.newAlbum");
+    /*var cChanger = new ColorChanger("a.newAlbum");
     cChanger.change();
-	//loadMusicRaiser();
-	$("#content").css("width","1160px");
-	$("#container").css("width","100%");
+	//loadMusicRaiser();*/
+    menuFader.fade();
+	//$("#content").css("width","1160px");
+	//$("#container").css("width","100%");
 });

@@ -39,6 +39,17 @@ class DatPressMySqlDAO implements DatPressDAO{
 		$sqlQuery = new SqlQuery($sql);
 		return $this->getList($sqlQuery);
 	}
+
+	/**
+	 * Get all records from table ordered by field
+	 *
+	 * @param $orderColumn column name
+	 */
+	public function queryTopAllOrderBy($orderColumn, $top){
+		$sql = 'SELECT * FROM dat_press ORDER BY '.$orderColumn.' LIMIT '.$top;
+		$sqlQuery = new SqlQuery($sql);
+		return $this->getList($sqlQuery);
+	}
 	
 	/**
  	 * Delete record from table

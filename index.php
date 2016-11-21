@@ -12,8 +12,15 @@
 <meta name="title" content="White MosQuito - Official Website"/>
 <meta name="description" content="Gli amici dei white mosquito"/>
 <meta name="keywords" content="white mosquito, ascolta, musica, personalità nascoste, in faccia, il potere e la sua signora"/>
+if(isset($_GET['eventID']))
+{
+    $idEventoT = $_GET['eventID'];
+    $eventT = DAOFactory::getDatEventsDAO()->load($idEventoT);
+    $imageT = DAOFactory::getDatImmaginiDAO()->load($eventT->idDATImmagineLocandina);
+    $fileT = DAOFactory::getFilesDAO()->load($imageT->filesID);
+}
 
-
+?>
 <?php
   //Assign all Page Specific variables
   $pageMetatags = ob_get_contents();
@@ -32,6 +39,8 @@
 <!-- bxSlider CSS file -->
 <link href="includes/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
 <link rel="stylesheet" type="text/css" href="includes/css/home.css"/>
+<link rel="stylesheet" type="text/css" href="includes/css/tour.css" />
+<link rel="stylesheet" href="includes/css/discografia.css"/>
 <?php
   //Assign all Page Specific variables
   $pageCss = ob_get_contents();
@@ -47,6 +56,7 @@
 <!-- bxSlider Javascript file -->
 <script src="includes/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="includes/jquery.bxslider/plugins/jquery.fitvids.js"></script>
+<script src="includes/page_js/home.js"></script>
 
 <script type="text/javascript">
   $(document).ready(function(){
@@ -77,23 +87,6 @@
 ob_start();
 ?>
 
-<h3>Images</h3>	
-<ul class="bxslider" id="imageSlider">
-  <?php
-    $gallery = DAOFactory::getDatGallerieDAO()->load(28);//queryByTitle("ImageSlider");
-
-    $images = DAOFactory::getDatImmaginiDAO()->queryByIdGalleria($gallery->id);
-    foreach($images as $image)
-    {
-        set_time_limit(0);
-        $file = DAOFactory::getFilesDAO()->load($image->filesID);
-?>
-         <li><img src="<?php echo $file->filesName; ?>" /></li>
-<?php
-    }
-?>
-</ul>
-
 <h3>Videos</h3>
 <ul id="videoSlider" class="bxslider">
 <li>
@@ -111,6 +104,41 @@ ob_start();
   </li>
   
 </ul>
+
+<h3>Tour</h3>
+
+<?php
+include_once("model/Rendering/EventsRender.php");
+?>
+
+<h3>Images</h3>	
+<ul class="bxslider" id="imageSlider">
+  <?php
+    $gallery = DAOFactory::getDatGallerieDAO()->load(28);//queryByTitle("ImageSlider");
+
+    $images = DAOFactory::getDatImmaginiDAO()->queryByIdGalleria($gallery->id);
+    foreach($images as $image)
+    {
+        set_time_limit(0);
+        $file = DAOFactory::getFilesDAO()->load($image->filesID);
+?>
+         <li><img src="<?php echo $file->filesName; ?>" /></li>
+<?php
+    }
+?>
+</ul>
+
+<h3>Discografia</h3>
+<?php
+include("model/Rendering/DiscografiaRender.php");
+?>
+
+<h3>Press</h3>
+
+<?php
+include("model/Rendering/PressRender.php");
+?>
+
 
 <?php
 //Assign all Page Specific variables

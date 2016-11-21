@@ -63,5 +63,7 @@ interface DatPressDAO{
 
 	public function deleteByData($value);
 
+	public function queryTopAllOrderBy($orderColumn, $top);
+
 }
 ?>

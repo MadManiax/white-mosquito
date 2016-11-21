@@ -8,9 +8,18 @@ body
     font-family:"menschthin","Trebuchet MS", Arial, Helvetica, sans-serif;
     /*color:#666;*/
 	color:#404040;
-    background-color: #dad8d8;
+    /*background-color: #dad8d8;*/
+    background-color: #000;
     z-index:0;
+
+    background-image: url(../../images/se-bg.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100%;
 }
+
 
 body.hp
 {
@@ -158,6 +167,7 @@ h2 a:hover
 
 div#container
 {
+    min-height: 100%;
     width:1030px;
     margin:0px auto;
     padding:0px;

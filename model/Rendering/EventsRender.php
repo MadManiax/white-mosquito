@@ -19,7 +19,7 @@ if (!isset($_GET["eventID"])) {
             });                    
         });
     </script>
-    <div class="bookingInfo"><a href="contatti.php"><b>BOOKING</b></a></div>
+    <!-- <div class="bookingInfo"><a href="contatti.php"><b>BOOKING</b></a></div> -->
     <div class="events">
         <?php
         $today = date('Y-m-d');
@@ -41,7 +41,8 @@ if (!isset($_GET["eventID"])) {
     //Requirements
     $pageCount = 5;
 
-    $pageLink = "tour.php";
+    //$pageLink = "tour.php";
+    $pageLink = "index.php";
     $parameters = array();
     $parameters[] = "PastEvents=true";
     $elements_pager = $allEvents;
@@ -53,11 +54,11 @@ if (!isset($_GET["eventID"])) {
 
     if (isset($_GET['PastEvents'])) {
         ?>
-        <div class="events"><a href="tour.php"><b>Prossimi live</b></a></div><br/><br/>
+        <div class="events"><a href="<?php echo $pageLink; ?>"><b>Prossimi live</b></a></div><br/><br/>
         <?php
     } else {
         ?>
-        <div class="events"><a href="tour.php?PastEvents=true"><b>Eventi passati</b></a></div><br/><br/>
+        <div class="events"><a href="<?php echo $pageLink; ?>?PastEvents=true"><b>Eventi passati</b></a></div><br/><br/>
         <?php
     }
 } else {
@@ -81,7 +82,7 @@ if (!isset($_GET["eventID"])) {
     ?>
 
 
-    <a href="tour.php" style="float:right;">Indietro</a>
+    <a href="<?php echo $pageLink; ?>" style="float:right;">Indietro</a>
     <?php
 }
 ?>

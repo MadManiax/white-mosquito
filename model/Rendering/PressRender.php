@@ -23,9 +23,9 @@ if(!isset($_GET["pressId"]))
     });
 </script>
 
-<?
+<?php
 	$today = date('Y-m-d');
-	$allPress = $daoPress->queryAllOrderBy('data desc');
+	$allPress = $daoPress->queryTopAllOrderBy("data desc","5");
 	foreach($allPress as $pressItem)
 	{	
             $pressId = $pressItem->id;
