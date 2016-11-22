@@ -114,6 +114,7 @@ div.eventItem div.right
 /* INIZIO EVENT DETAIL */
 div.eventDetail
 {
+    color:#fff;
     /*height:500px;*/
     font-family: Verdana;      
     margin: 2% 2%;

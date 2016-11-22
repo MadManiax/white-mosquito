@@ -544,6 +544,37 @@ div.pressVai
     text-align: center;
 
 }
+
+div.pressDetailHead
+    {
+        /*background-color: #DCE1E3;*/
+        padding: 4px;
+        /*border:1px solid #B0B0B0;border-right:0 solid;*/
+        margin: 10px auto;
+        height:100px;
+    }
+    div.pressDetailText
+    {
+        font-size:80%;
+    }
+
+div.pressDetail div.pressSubTitle{
+    color:#fff;
+}
+
+div.pressDetailText{
+    color:#fff;   
+    text-align: center;
+}
+
+div.pressDetailHead div.pressHeader div.pressTitle h3{
+    font-weight: bolder;
+    font-size:2vw;
+}
+
+div.pressDetailHead div.pressHeader div.pressDate{
+ color:#fff;      
+}
 /* Press Item End */
 
 
