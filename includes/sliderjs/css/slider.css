@@ -1590,7 +1590,7 @@ input[type="submit"].btn.btn-mini {
     }
 
     .slidesjs-pagination li a {
-      display: block;
+      display: none;
       width: 13px;
       height: 0;
       padding-top: 13px;
@@ -1599,3 +1599,7 @@ input[type="submit"].btn.btn-mini {
       float: left;
       overflow: hidden;
     }
+
+a.slidesjs-previous, a.slidesjs-navigation, a.slidesjs-stop, .slidejs-next, .slidejs.stop{
+  display :none;
+}

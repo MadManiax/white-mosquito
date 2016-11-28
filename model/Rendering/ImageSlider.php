@@ -39,5 +39,6 @@ $(function() {
         	active: false
         }
       });
+      $('a.slidesjs-stop.slidesjs-navigation').css('display', 'none');
     });
 </script>
