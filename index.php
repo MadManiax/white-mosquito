@@ -100,7 +100,7 @@ else
 
 
  <?php
-
+/*
 if(!BrowserTools::isMobile())
 {
 ?>
@@ -112,7 +112,7 @@ if(!BrowserTools::isMobile())
   <?php
 }
 else
-{
+{*/
   ?>
 
   /*$('#imageSlider').bxSlider({
@@ -129,7 +129,7 @@ else
   });
 
 <?php
-}
+//}
 ?>
 
 });
