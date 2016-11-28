@@ -15,7 +15,7 @@
             <meta property="og:type" content="Website"/>
             <meta property="og:site_name" content="White Mosquito - Rock Band"/>
             <meta name="google-site-verification" content="XmCA1wSUVPjjmRceKix8G7dNJQCKr6I79rDBFHJHf_I" />
-
+            <meta name="viewport" content="width=device-width">
             <?php echo $pageMetatags; ?>        
             
             <script language="JavaScript" type="text/JavaScript">
@@ -30,33 +30,21 @@
             
             <link rel="stylesheet" type="text/css" href="includes/css/fonts.css" media="screen" />
             <link rel="stylesheet" type="text/css" href="includes/css/incScreen.css" media="screen" />
-            <link rel="stylesheet" type="text/css" href="includes/js/vegas/vegas.min.css" />
+            
             <link rel="stylesheet" type="text/css" href="includes/css/contatti.css" />
             <?php echo $pageCss; ?>        
             <?php
                     require_once 'google_snippets.php';
             ?>
-            <?php
-            if ($pageInternaltitle === "Contatti") 
-            {
-                ?>
-                <script type='text/javascript' src='includes/js/jquery-1.4.2.min.js'></script>
-                <?php
-            }else if ($pageInternaltitle === "Home")
-            {
-                ?>
-                           <script type='text/javascript' src='http://code.jquery.com/jquery-latest.min.js'></script>
-                <?php
-            } else {
-                ?>
-                <!-- <script type='text/javascript' src='includes/js/jquery-1.3.2.min.js'></script> -->
-                <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js'></script>
-
-                <?php
-            }
-            ?>
+            
+            <!--
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
             <script type='text/javascript' src='http://code.jquery.com/ui/1.10.0/jquery-ui.min.js'></script>
-            <script type='text/javascript' src='includes/js/vegas/vegas.min.js'></script>
+            -->
+
+            <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+            <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+            
             <!-- <link rel="stylesheet" type="text/css" href="includes/audiojs/audio.css"/>
             <script src="includes/audiojs/audio.min.js"></script> -->
             

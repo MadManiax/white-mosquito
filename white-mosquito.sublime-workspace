@@ -4,15 +4,27 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"bo",
+				"bolder"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
 				"min-",
 				"min-height"
 			],
 			[
 				"margi",
-				"margin-right"
-			],
-			[
-				"margin",
 				"margin-right"
 			],
 			[
@@ -44,10 +56,6 @@
 				"margin-bottom"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"wid",
 				"width"
 			]
@@ -56,10 +64,37 @@
 	"buffers":
 	[
 		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 7474,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config.inc.php",
+			"settings":
+			{
+				"buffer_size": 2249,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/css/home.css",
+			"settings":
+			{
+				"buffer_size": 1170,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "masterpage.php",
 			"settings":
 			{
-				"buffer_size": 8507,
+				"buffer_size": 7893,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -68,61 +103,15 @@
 			"file": "includes/css/incScreen.css",
 			"settings":
 			{
-				"buffer_size": 9406,
-				"encoding": "UTF-8",
+				"buffer_size": 9963,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "includes/css/discografia.css",
+			"file": "includes/js/iframe.resize.js",
 			"settings":
 			{
-				"buffer_size": 1227,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "includes/css/tour.css",
-			"settings":
-			{
-				"buffer_size": 3072,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "model/Rendering/PressItem.php",
-			"settings":
-			{
-				"buffer_size": 723,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "model/Rendering/DiscografiaRender.php",
-			"settings":
-			{
-				"buffer_size": 1879,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "includes/jquery.bxslider/jquery.bxslider.css",
-			"settings":
-			{
-				"buffer_size": 3926,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "includes/page_js/home.js",
-			"settings":
-			{
-				"buffer_size": 2443,
+				"buffer_size": 2521,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -163,22 +152,24 @@
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/css",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/page_js",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/class/core",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/class/dao",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/class/dto",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/class/mysql",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/class/mysql/ext",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/Rendering"
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/jquery.bxslider",
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/page_js"
 	],
 	"file_history":
 	[
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/jquery.bxslider/jquery.bxslider.css",
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/css/incScreen.css",
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/Rendering/GalleryMenuItem.php",
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/Rendering/PressDetail.php",
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/page_js/home.js",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/Rendering/DiscografiaRender.php",
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/css/tour.css",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/css/discografia.css",
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/masterpage.php",
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/Rendering/PressItem.php",
+		"/C/Users/m.magnani/AppData/Local/Microsoft/Windows/INetCache/IE/7416JLN3/incScreen[1].css",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/index.php",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/css/home.css",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/jquery.bxslider/jquery.bxslider.css",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/press.php",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/class/dao/DAOFactory.class.php",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/Rendering/PressRender.php",
@@ -188,7 +179,6 @@
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/class/mysql/DatPressMySqlDAO.class.php",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/css/incScreen.bak.css",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/discografia.php",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/page_js/home.js",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/Rendering/EventsRender.php",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/class/dao/DatImmaginiDAO.class.php",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/class/mysql/DatGallerieMySqlDAO.class.php",
@@ -212,7 +202,7 @@
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -226,6 +216,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"video",
 			"container",
 			"        \n",
 			"?>\n",
@@ -247,144 +238,54 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "masterpage.php",
+					"file": "index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8507,
+						"buffer_size": 7474,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7438,
-								7438
+								6303,
+								6303
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2580.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "includes/css/incScreen.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9406,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3753,
-								3753
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4200.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "includes/css/discografia.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1227,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								236,
-								236
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 60.0,
+						"translation.y": 3821.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "includes/css/tour.css",
+					"buffer": 1,
+					"file": "config.inc.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3072,
+						"buffer_size": 2249,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1058,
-								1058
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 900.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "model/Rendering/PressItem.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 723,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								346,
-								346
+								242,
+								242
 							]
 						],
 						"settings":
@@ -399,20 +300,50 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "model/Rendering/DiscografiaRender.php",
+					"buffer": 2,
+					"file": "includes/css/home.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1879,
+						"buffer_size": 1170,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								964,
-								939
+								1170,
+								1170
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 900.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "masterpage.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7893,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7430,
+								7430
 							]
 						],
 						"settings":
@@ -422,69 +353,69 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 740.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "includes/jquery.bxslider/jquery.bxslider.css",
-					"semi_transient": false,
+					"buffer": 4,
+					"file": "includes/css/incScreen.css",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 3926,
+						"buffer_size": 9963,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								952,
-								952
+								269,
+								269
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 660.0,
+						"translation.y": 1740.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "includes/page_js/home.js",
+					"buffer": 5,
+					"file": "includes/js/iframe.resize.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2443,
+						"buffer_size": 2521,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1672,
-								1672
+								1390,
+								1390
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 840.0,
+						"translation.y": 300.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
