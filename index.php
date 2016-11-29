@@ -120,13 +120,13 @@ else
     autoControls: true,
     adaptiveHeight: true
   });*/
-  $('#videoSlider').bxSlider({
+  /*$('#videoSlider').bxSlider({
     video: true,
-    /*useCSS: false,*/
+ 
     auto:true,
     autoControls: true,
     adaptiveHeight: true
-  });
+  });*/
 
 <?php
 //}

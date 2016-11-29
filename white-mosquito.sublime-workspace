@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"di",
+				"display"
+			],
+			[
 				"margin",
 				"margin"
 			],
@@ -67,9 +71,18 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 7474,
+				"buffer_size": 4047,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "includes/sliderjs/css/slider.css",
+			"settings":
+			{
+				"buffer_size": 40281,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -94,24 +107,29 @@
 			"file": "masterpage.php",
 			"settings":
 			{
-				"buffer_size": 7893,
+				"buffer_size": 7956,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "includes/css/incScreen.css",
+			"file": "model/Rendering/ImageSlider.php",
 			"settings":
 			{
-				"buffer_size": 9963,
-				"line_ending": "Windows"
+				"buffer_size": 844,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "<?php"
 			}
 		},
 		{
-			"file": "includes/js/iframe.resize.js",
+			"contents": "<?php\n\n//if(!BrowserTools::isMobile())\n  if(true)\n{\n?>\n<div id=\"vslides\">\n<iframe src=\"http://www.youtube.com/embed/vCUHvT7IG4Q\" class=\"youtube-player\" type=\"text/html\"  id=\"v_1\" frameborder=\"0\" width=\"100%\" height=\"100%\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" vspace=\"0\" hspace=\"0\" style=\"overflow:visible; width:100%; display:block\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>\n<iframe src=\"http://www.youtube.com/embed/KDnxsBwsA4A\" class=\"youtube-player\" type=\"text/html\" id=\"v_2\" frameborder=\"0\" width=\"100%\" height=\"100%\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" vspace=\"0\" hspace=\"0\" style=\"overflow:visible; width:100%; display:block\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>\n<iframe src=\"http://www.youtube.com/embed/DD0BmgEEjW0\" class=\"youtube-player\" type=\"text/html\" id=\"v_3\" frameborder=\"0\" width=\"100%\" height=\"100%\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" vspace=\"0\" hspace=\"0\" style=\"overflow:visible; width:100%; display:block\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>\n<iframe src=\"http://www.youtube.com/embed/8opta3y6nPE\" class=\"youtube-player\" type=\"text/html\" id=\"v_4\" frameborder=\"0\" width=\"100%\" height=\"100\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" vspace=\"0\" hspace=\"0\" style=\"overflow:visible; width:100%; display:block\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>\n</div>\n\n<!-- <div id=\"Glide\" class=\"glide\">\n\n    \n\n    <div class=\"glide__wrapper\">\n        <ul class=\"glide__track\">\n            <li class=\"glide__slide\"><iframe src=\"http://www.youtube.com/embed/vCUHvT7IG4Q\" class=\"youtube-player\" type=\"text/html\"  id=\"v_1\" frameborder=\"0\" width=\"100%\" height=\"500px\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" vspace=\"0\" hspace=\"0\" style=\"overflow:visible; width:100%; display:block\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></li>\n            <li class=\"glide__slide\"><iframe src=\"http://www.youtube.com/embed/KDnxsBwsA4A\" class=\"youtube-player\" type=\"text/html\" id=\"v_2\" frameborder=\"0\" width=\"100%\" height=\"500px\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" vspace=\"0\" hspace=\"0\" style=\"overflow:visible; width:100%; display:block\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></li>\n            <li class=\"glide__slide\"><iframe src=\"http://www.youtube.com/embed/DD0BmgEEjW0\" class=\"youtube-player\" type=\"text/html\" id=\"v_3\" frameborder=\"0\" width=\"100%\" height=\"500px\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" vspace=\"0\" hspace=\"0\" style=\"overflow:visible; width:100%; display:block\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></li>\n        </ul>\n    </div>\n\n    <div class=\"glide__bullets\"></div>\n\n</div> -->\n\n\n<script>\n$(function() {\n      $('#vslides').slidesjs({\n        width: 940,\n        height: 528,\n        play: {\n          active: true,\n          auto: true,\n          interval: 4000,\n          swap: true\n        },\n        pagination:{\n          active: false\n        }\n      });\n      $('a.slidesjs-stop.slidesjs-navigation').css('display', 'none');\n    });\n</script>\n<?php \n}\n//else\n//{\n\n ?>\n<!--\n<li>\n\n    <iframe src=\"http://www.youtube.com/embed/vCUHvT7IG4Q\" class=\"youtube-player\" type=\"text/html\"  id=\"v_1\" frameborder=\"0\" width=\"100%\" height=\"60%\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" vspace=\"0\" hspace=\"0\" style=\"overflow:visible; width:100%; display:block\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>\n  </li>\n  <li>\n    <iframe src=\"http://www.youtube.com/embed/KDnxsBwsA4A\" class=\"youtube-player\" type=\"text/html\" id=\"v_2\" frameborder=\"0\" width=\"100%\" height=\"60%\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" vspace=\"0\" hspace=\"0\" style=\"overflow:visible; width:100%; display:block\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>\n  </li>\n  <li>\n    <iframe src=\"http://www.youtube.com/embed/DD0BmgEEjW0\" class=\"youtube-player\" type=\"text/html\" id=\"v_3\" frameborder=\"0\" width=\"100%\" height=\"60%\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" vspace=\"0\" hspace=\"0\" style=\"overflow:visible; width:100%; display:block\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>\n  </li>\n  <li>\n    <iframe src=\"http://www.youtube.com/embed/8opta3y6nPE\" class=\"youtube-player\" type=\"text/html\" id=\"v_4\" frameborder=\"0\" width=\"100%\" height=\"60%\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" vspace=\"0\" hspace=\"0\" style=\"overflow:visible; width:100%; display:block\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>\n  </li>\n  \n</ul>\n\n-->\n<?php \n//}\n?>",
+			"file": "model/Rendering/VideoSlider.php",
+			"file_size": 4847,
+			"file_write_time": 131248060040417585,
 			"settings":
 			{
-				"buffer_size": 2521,
+				"buffer_size": 4772,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -153,10 +171,18 @@
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/css",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/jquery.bxslider",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/page_js"
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/page_js",
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/sliderjs",
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/sliderjs/css",
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/Slides-SlidesJS-3",
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/Slides-SlidesJS-3/source",
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model",
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/Rendering"
 	],
 	"file_history":
 	[
+		"/C/Users/m.magnani/AppData/Local/Microsoft/Windows/INetCache/IE/LTCUE21D/config.inc[1].php",
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/js/iframe.resize.js",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/jquery.bxslider/jquery.bxslider.css",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/css/incScreen.css",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/Rendering/GalleryMenuItem.php",
@@ -202,7 +228,7 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
@@ -216,6 +242,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"previous",
 			"video",
 			"container",
 			"        \n",
@@ -238,7 +265,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -247,15 +274,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7474,
+						"buffer_size": 4047,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6303,
-								6303
+								2824,
+								2824
 							]
 						],
 						"settings":
@@ -265,14 +292,44 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3821.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "includes/sliderjs/css/slider.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40217,
+								40217
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 31061.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "config.inc.php",
 					"semi_transient": false,
 					"settings":
@@ -296,11 +353,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "includes/css/home.css",
 					"semi_transient": false,
 					"settings":
@@ -326,24 +383,24 @@
 						"translation.y": 900.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "masterpage.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7893,
+						"buffer_size": 7956,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7430,
-								7430
+								1606,
+								1606
 							]
 						],
 						"settings":
@@ -353,69 +410,70 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 740.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "includes/css/incScreen.css",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 9963,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								269,
-								269
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1740.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "includes/js/iframe.resize.js",
+					"file": "model/Rendering/ImageSlider.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2521,
+						"buffer_size": 844,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1390,
-								1390
+								453,
+								453
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?php",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "model/Rendering/VideoSlider.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4772,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1275,
+								1275
 							]
 						],
 						"settings":
 						{
 							"auto_name": "",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 300.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

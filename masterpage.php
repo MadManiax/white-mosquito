@@ -48,6 +48,14 @@
             <!-- <link rel="stylesheet" type="text/css" href="includes/audiojs/audio.css"/>
             <script src="includes/audiojs/audio.min.js"></script> -->
             
+            <?php 
+                if(BrowserTools::isMobile()){
+                    ?>
+                        <link rel="stylesheet" type="text/css" href="includes/css/incScreen-mobile.css" media="screen" />
+                    <?php
+                }
+            ?>
+
             <?php echo $pageScripts; ?>
         </head>
 
