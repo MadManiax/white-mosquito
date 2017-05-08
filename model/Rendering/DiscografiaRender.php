@@ -1,5 +1,26 @@
 <div>
     <div class="itemContainer left">
+    <?php
+//Superegp
+        $discoImgSrc = "images/coverAlbum/superego-cover.jpeg";
+        $discoTitle = "Superego (OrzoRock Music)";
+        $discoYear = "2017";
+        $discoDurata = "33:00";
+        $tracks = array(
+            array("Complice", "02:25")
+            , array("Rivoluzione", "02:58")
+            , array("Destino", "03:40")
+            , array("Contrordine", "03:41")
+            , array("Male in pillole", "03:58")
+            , array("Per non morire", "03:16")
+            , array("Senza Amore", "02:58")
+            , array("Vorrei", "02:49")
+            , array("Hey Man", "02:57")
+            , array("Da Qui", "04:47")
+        );
+        include("model/Rendering/DiscoItem.php");
+?>
+<div class="clear"></div>
         <?php
 //Il potere e la sua signora
         $discoImgSrc = "images/coverAlbum/IlPotereELaSuaSignora.jpg";

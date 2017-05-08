@@ -67,6 +67,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/Infinity/Studi/TableRendering/includes/js/table-rendering.js",
+			"settings":
+			{
+				"buffer_size": 3539,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Infinity/Studi/TableRendering/index.html",
+			"settings":
+			{
+				"buffer_size": 1275,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -100,32 +117,23 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/jquery.bxslider",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/page_js",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/sliderjs",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/sliderjs/css",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/Slides-SlidesJS-3",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/Slides-SlidesJS-3/source",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/Rendering"
+		"/C/Infinity/Studi/TableRendering",
+		"/C/Infinity/Studi/TableRendering/includes",
+		"/C/Infinity/Studi/TableRendering/includes/js"
 	],
 	"file_history":
 	[
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/sitemap.xml",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/robots.txt",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/index.php",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/masterpage.php",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/css/incScreen.css",
-		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/css/incScreen-mobile.css",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/Rendering/VideoSlider.php",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/Rendering/ImageSlider.php",
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/masterpage.php",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/css/home.css",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/config.inc.php",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/sliderjs/css/slider.css",
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/index.php",
 		"/C/Users/m.magnani/AppData/Local/Microsoft/Windows/INetCache/IE/LTCUE21D/config.inc[1].php",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/js/iframe.resize.js",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/jquery.bxslider/jquery.bxslider.css",
+		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/css/incScreen.css",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/Rendering/GalleryMenuItem.php",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/model/Rendering/PressDetail.php",
 		"/C/Users/m.magnani/Documents/Visual Studio 2015/Projects/white-mosquito/includes/page_js/home.js",
@@ -165,11 +173,11 @@
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
-		"height": 117.0,
+		"height": 0.0,
 		"where_history":
 		[
 		]
@@ -202,8 +210,69 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/Infinity/Studi/TableRendering/includes/js/table-rendering.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2729,
+								2729
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Infinity/Studi/TableRendering/index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -243,7 +312,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "white-mosquito.sublime-project",
+	"project": "table-rendering.sublime-project",
 	"replace":
 	{
 		"height": 52.0

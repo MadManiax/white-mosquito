@@ -30,6 +30,13 @@
             
             <link rel="stylesheet" type="text/css" href="includes/css/fonts.css" media="screen" />
             <link rel="stylesheet" type="text/css" href="includes/css/incScreen.css" media="screen" />
+            <?php 
+                /*if(BrowserTools::isMobile()){
+                    ?>
+                        <link rel="stylesheet" type="text/css" href="includes/css/incScreen-mobile.css" media="screen" />
+                    <?php
+                }*/
+            ?>
             
             <link rel="stylesheet" type="text/css" href="includes/css/contatti.css" />
             <?php echo $pageCss; ?>        
@@ -48,13 +55,7 @@
             <!-- <link rel="stylesheet" type="text/css" href="includes/audiojs/audio.css"/>
             <script src="includes/audiojs/audio.min.js"></script> -->
             
-            <?php 
-                if(BrowserTools::isMobile()){
-                    ?>
-                        <link rel="stylesheet" type="text/css" href="includes/css/incScreen-mobile.css" media="screen" />
-                    <?php
-                }
-            ?>
+
 
             <?php echo $pageScripts; ?>
         </head>
@@ -68,14 +69,15 @@
                     <div id="menuWM" class="interno">
                         <ul>	
                             <li class="logo"><a href="index.php" title="home page - White MosQuito"><img id="indexImg" src="images/logo_whitemosquito.png" height="60" border="0" alt="home page - white mosquito" title="home page - white mosquito" /></a></li>
-                            <li><a><b>S</b></a></li>
+                            <li><a href="#"><img src="images/BANNER-RETTANGOLRE-486x60.gif"></a></li>
+                            <!--<li><a><b>S</b></a></li>
                             <li><a><b>U</b></a></li>
                             <li><a><b>P</b></a></li>
                             <li><a><b>E</b></a></li>
                             <li><a><b>R</b></a></li>
                             <li><a><b>E</b></a></li>
                             <li><a><b>G</b></a></li>
-                            <li><a><b>O</b></a></li>                        
+                            <li><a><b>O</b></a></li>   -->                     
                         </ul>                        
                     </div>
 
@@ -87,7 +89,7 @@
 
                     <div id="cp_widget_12c4ef5e-fe98-4b91-adc8-c98d37613baf">...</div>
                     <script type="text/javascript">
-                    var cpo = []; 
+                    /*var cpo = []; 
                     cpo["_object"] ="cp_widget_12c4ef5e-fe98-4b91-adc8-c98d37613baf"; 
                     cpo["_fid"] = "AoMALzNrAK9B";
                     var _cpmp = _cpmp || []; _cpmp.push(cpo);
@@ -98,7 +100,7 @@
                             cp.async = true; 
                             cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
                             var c = document.getElementsByTagName("script")[0];
-                            c.parentNode.insertBefore(cp, c); })(); 
+                            c.parentNode.insertBefore(cp, c); })(); */
                     </script>
                         <noscript>
                             Powered by Cincopa <a href='https://www.cincopa.com/video-portal'>Video Portal</a> for Business solution.<span>no name</span><span>Sono il colpevole</span><span>Personalità Nascoste</span><span>Quello che non vedi</span><span>Personalità Nascoste</span><span>In faccia</span><span>Il Potere e la sua Signora</span><span>Circostanze</span><span>Il Potere e la sua Signora</span><span>Stato Confusionale</span><span>Il Potere e la sua Signora</span><span>Manifesto</span><span>Il Potere e la sua Signora</span><span>Nuvola</span><span>Il Potere e la sua Signora</span><span>Come Se</span><span>Personalità Nascoste</span>
