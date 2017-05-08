@@ -3,8 +3,8 @@
 div.eventItem
 {
     font-family: "rivannaregular", Verdana;
-    height: 10%;
-    width: 30%;
+    height: 100%;
+    width: 100%;
     margin: 1% auto;
     text-align: center;
     color:#000;
@@ -18,7 +18,7 @@ div.eventItem
     font-family: "rivannaregular";
     margin:10px auto;
     font-size: 2vw;
-    width: 95%;
+    width: 80%;
     color:#000;
 }
 .black
@@ -40,15 +40,29 @@ div.eventItem a
 }
 .eventItem_data
 {
-    font-size: 22px;
+    font-size: 1.3vw;
+    
 }
+
+div.eventItem p
+{
+    margin-top: 10%;
+    font-size: 1vw;
+}
+
 .eventItem_dove
 {
-    font-size: 22px;
+    font-size: 28px;
 }
 .eventItem_locale
 {
-    font-size: 28px;
+    font-size: 32px;
+}
+
+.eventItem_desc
+{
+    font-size: 20px;
+    width: 30%;
 }
 /* new section */
 .eventsPager
@@ -77,11 +91,11 @@ div.eventItem a
 }*/
 div.eventItem p
 {
-    font-size: small;
+    /*font-size: small;*/
     font-weight: normal;
     color: #190101;
-    height:200px;
-    width:600px;
+    height:100%;
+    width:100%;
 
 }
 div.eventItem span
@@ -92,22 +106,26 @@ div.eventItem span
 }
 div.eventItem div.left
 {
-    height: 270px;
-    width: 200px;
+    /*height: 270px;
+    width: 200px;*/
     float: left;
+    margin-right: 5%;
+    width:45%;
+
 }
 div.eventItem div.left img
 {
-    height: 260px; 
-    width: 190px;
+    /*height: 260px; */
+    width: 300px;
     margin: auto;
 }
 div.eventItem div.right
 {
-    height: 270px;
-    width: 300px;
+    /*height: 270px;
+    width: 300px;*/
     float: right;
     padding: 2% 0% 0% 2%;
+    width:45%;
 }
 /* FINE EVENT ITEM */
 

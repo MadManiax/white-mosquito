@@ -54,7 +54,7 @@ if(isset($_GET['Mode']))
 		$image->alt = $title;
 		$DatImmaginiDAO->update($image);
 	}
-        if($mode == "SaveE")
+    if($mode == "SaveE")
 	{
             $idEvent = null;
             $eventToSave = new DatEvent();
@@ -84,6 +84,12 @@ if(isset($_GET['Mode']))
             $hour = $_POST['select_hour'];
             $minutes = $_POST['select_min'];
             $data = $_POST['date1'];
+            $date_day = $_POST['date1_day'];
+            $date_month = $_POST['date1_month'];
+            $date_year = $_POST['date1_year'];
+
+            
+
             $itemLocandina = $_POST['select_locandina'];
             $idLocandina = NULL;
             if($itemLocandina != "none")
@@ -93,6 +99,7 @@ if(isset($_GET['Mode']))
             }
            
             $eventToSave->data = date('Y-m-d H:i:s',strtotime($data." ".$hour.":".$minutes.":00"));
+            $eventToSave->data = date('Y-m-d H:i:s',mktime($hour,$minutes,0,$date_month,$date_day,$date_year));
             //echo $eventToSave->data;
             $eventToSave->citta = $city;   
             $eventToSave->title = $title;

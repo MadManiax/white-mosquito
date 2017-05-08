@@ -164,7 +164,7 @@ include("model/Rendering/VideoSlider.php")
 <h1 class="center">Tour</h1>
 
 <?php
-include_once("model/Rendering/EventsRender.php");
+include_once("model/Rendering/EventSlider.php");
 ?>
 </div>
 <div class="clear"></div>

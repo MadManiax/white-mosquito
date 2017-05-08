@@ -50,7 +50,8 @@ if (!isset($_GET["eventID"])) {
     $messaggioNessunRisultato = "Nessun evento in programmazione";
     $pagerClass = "eventsPager";
     $noItemsClass = "eventsNoItems";
-    include("model/Rendering/pager.php");
+    //include("model/Rendering/pager.php");
+    include("model/Rendering/EventSlider.php");
 
     if (isset($_GET['PastEvents'])) {
         ?>
