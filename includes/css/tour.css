@@ -2,7 +2,7 @@
 /* INIZIO EVENT ITEM */
 div.eventItem
 {
-    font-family: "rivannaregular", Verdana;
+    font-family: "palatino", "rivannaregular", Verdana;
     height: 100%;
     width: 100%;
     margin: 1% auto;
@@ -15,22 +15,22 @@ div.eventItem
 .events
 {
     text-align: center;
-    font-family: "rivannaregular";
+    font-family: "palatino","rivannaregular";
     margin:10px auto;
-    font-size: 2vw;
+    font-size: 1vw;
     width: 80%;
     color:#000;
 }
 .black
 {
     color:black;
-    font-size: 3vw;
+    font-size: 1.5vw;
     text-shadow:0.8px 0.8px #000;
 }
 .bookingInfo
 {
     float:right; font-size:70%;
-    font-family: "rivannaregular";
+    font-family: "palatino","rivannaregular";
 }
 
 div.eventItem a
@@ -70,13 +70,13 @@ div.eventItem p
     width:100%;
     margin: 2% auto;
     font-size: 0.8vw;
-    font-family: "rivannaregular", Verdana;
+    font-family: "palatino","rivannaregular", Verdana;
     font-weight: bold;
     text-align: center;
 }
 .eventsNoItems
 {
-    font-family: "rivannaregular", Verdana;
+    font-family: "palatino","rivannaregular", Verdana;
     color:#000;
     margin: 4% auto;
     text-align: center;

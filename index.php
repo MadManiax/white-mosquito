@@ -60,7 +60,9 @@ else
 <link rel="stylesheet" type="text/css" href="includes/css/home.css"/>
 <link rel="stylesheet" type="text/css" href="includes/css/tour.css" />
 <link rel="stylesheet" type="text/css" href="includes/css/discografia.css"/>
+<link rel="stylesheet" type="text/css" href="includes/css/video.css"/>
 <link rel="stylesheet" type="text/css" href="includes/sliderjs/css/slider.css"/>
+
 <?php
   //Assign all Page Specific variables
   $pageCss = ob_get_contents();
@@ -153,9 +155,11 @@ ob_start();
 
 <div class="stack">
 <h1 class="center">Videos</h1>
+<div class="videoContainer">
 <?php 
 include("model/Rendering/VideoSlider.php")
 ?>
+</div>
 </div>
 <div class="clear"></div>
 
