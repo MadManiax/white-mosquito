@@ -1,9 +1,8 @@
 html { 
-    background-color: #000;
-  background: url(../../images/SFONDO-SITO-mobile.jpg) no-repeat center center fixed; 
-  background-size: 300px 377px;
-  /*-webkit-background-size: cover;
+    position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+ -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;*/
+  background-size: cover;
 }
