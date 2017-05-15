@@ -140,12 +140,36 @@ include_once("model/Rendering/EventSlider.php");
 ?>
 </div>
 <div class="clear"></div>
+
+<?php 
+                if(BrowserTools::isMobile()){
+                    ?>
 <div class="stack">
+<h1 class="center">News</h1>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-page" data-href="https://www.facebook.com/WhiteMosQuitoRock/" data-tabs="timeline" data-width="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/WhiteMosQuitoRock/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/WhiteMosQuitoRock/">White MosQuito</a></blockquote></div>
+</div>
+</div>
+
+<div class="clear"></div>
+<?php
+}
+?>
+<div class="stack">
+
 <h1 class="center">Images</h1>	
 <?php 
 include("model/Rendering/ImageSlider.php")
 ?>
 </div>
+
 <div class="clear"></div>
 <div class="stack">
 <h1 class="center">Discografia</h1>
@@ -162,6 +186,32 @@ include("model/Rendering/PressRender.php");
 ?>
 </div>
 <div class="clear"></div>
+
+
+
+
+<?php 
+                if(!BrowserTools::isMobile()){
+                    ?>
+<div class="inflow">
+    <div class="positioner"><!-- may not be needed: see notes below-->
+      <div class="fixed">
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-page" data-href="https://www.facebook.com/WhiteMosQuitoRock/" data-tabs="timeline" data-width="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/WhiteMosQuitoRock/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/WhiteMosQuitoRock/">White MosQuito</a></blockquote></div>
+</div>
+      </div>
+    </div>
+  </div>
+<?php
+}
+?>
 <?php
 //Assign all Page Specific variables
 $pagecontent = ob_get_contents();

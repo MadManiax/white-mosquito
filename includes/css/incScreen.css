@@ -568,8 +568,8 @@ div#menuWM.interno ul li img.en
 }
 
 div#menuWM.interno ul li.logo{
-    margin-right:40%;
-    margin-left: 20%;
+    margin-right:25%;
+    margin-left: 25%;
 }
 
 div#menuWM.interno ul li a
@@ -777,3 +777,27 @@ a#merchOrder
 }
 
 .audiojs { margin: 15px 0px 20px; }
+/*
+div.fb-page{
+    position: absolute;
+    top:30%;
+    right: 10px;
+    width:15%;
+}*/
+
+div.inflow {
+  /*width: 200px; 
+  height: 1000px; */
+  
+  float: right; 
+  position: relative; 
+  margin-right: 10px;
+}
+div.positioner {position: absolute; right: 0;} /*may not be needed: see below*/
+div.fixed {
+  width:15%; 
+  
+  position: fixed; 
+  top: 20%; 
+  margin-left: 15px;
+}
