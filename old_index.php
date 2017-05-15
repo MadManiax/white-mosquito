@@ -37,6 +37,26 @@ require_once("config.inc.php");
 <!-- jQuery library (served from Google) <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>-->
 
 
+
+
+<?php
+
+if(BrowserTools::isMobile())
+{
+?>
+<link rel="stylesheet" type="text/css" href="includes/glide/css/glide.core.css">
+<link rel="stylesheet" type="text/css" href="includes/glide/css/glide.theme.css">
+<?php
+}
+else
+{
+?>
+<!-- bxSlider CSS file -->
+<link href="includes/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+<?php
+}
+?>
+
 <link rel="stylesheet" type="text/css" href="includes/css/home.css"/>
 <link rel="stylesheet" type="text/css" href="includes/css/tour.css" />
 <link rel="stylesheet" type="text/css" href="includes/css/discografia.css"/>
@@ -56,57 +76,69 @@ require_once("config.inc.php");
   ob_start();
 ?>
 
-<script src="includes/page_js/home.js"></script>
+<?php
 
-<script src="includes/sliderjs/js/jquery.slides.min.js"></script>
+if(BrowserTools::isMobile())
+{
+?>
+<script src="includes/glide/glide.js"></script>
+<?php
+}
+else
+{
+?>
+<!-- bxSlider Javascript file -->
+<script src="includes/jquery.bxslider/jquery.bxslider.min.js"></script>
+<script src="includes/jquery.bxslider/plugins/jquery.fitvids.js"></script>
+<?php
+}
+?>
+<script src="includes/page_js/home.js"></script>
+<!-- <script src="includes/js/iframe.resize.js"></script> -->
 
 <script type="text/javascript">
-  $(function() {
-    $('#vslides').slidesjs({
-        width: 940,
-        height: 528,
-        play: {
-          active: true,
-          auto: true,
-          interval: 4000,
-          swap: true
-        },
-        pagination:{
-          active: false
-        }
-      });
-      $('#event-slider').slidesjs({
-        width: 900,
-        height: 528,
-        play: {
-          active: true,
-          auto: true,
-          interval: 6000,
-          swap: true
-        },
-        pagination:{
-            active: false
-        }
-      });
-      $('#slides').slidesjs({
-              width: 940,
-              height: 528,
-              play: {
-                active: true,
-                auto: true,
-                interval: 4000,
-                swap: true
-              },
-              pagination:{
-                active: false
-              }
-            });
-      
-      $('a.slidesjs-stop.slidesjs-navigation').css('display', 'none');
-    
+  $(document).ready(function(){
+  
 
-  });
+
+ <?php
+/*
+if(!BrowserTools::isMobile())
+{
+?>
+  $("#Glide").glide({
+        type: "slider",
+        autoheight:true
+    });
+
+  <?php
+}
+else
+{*/
+  ?>
+
+  /*$('#imageSlider').bxSlider({
+    auto:true,
+    autoControls: true,
+    adaptiveHeight: true
+  });*/
+  /*$('#videoSlider').bxSlider({
+    video: true,
+ 
+    auto:true,
+    autoControls: true,
+    adaptiveHeight: true
+  });*/
+
+<?php
+//}
+?>
+
+});
+
 </script>
+<script src="includes/sliderjs/js/jquery.slides.min.js"></script>
+
 
 <?php
   //Assign all Page Specific variables

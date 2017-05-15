@@ -24,21 +24,3 @@
 <!-- </ul> -->
 
 </div>
-<script>
-$(function() {
-      $('#slides').slidesjs({
-        width: 940,
-        height: 528,
-        play: {
-          active: true,
-          auto: true,
-          interval: 4000,
-          swap: true
-        },
-        pagination:{
-        	active: false
-        }
-      });
-      $('a.slidesjs-stop.slidesjs-navigation').css('display', 'none');
-    });
-</script>

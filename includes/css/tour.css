@@ -5,10 +5,10 @@ div.eventItem
     font-family: "palatino", "rivannaregular", Verdana;
     height: 100%;
     width: 100%;
-    margin: 1% auto;
+    margin: 2% auto;
     text-align: center;
     color:#000;
-    text-shadow:0.8px 0.8px #000;
+    /*text-shadow:0.8px 0.8px #000;*/
     
     
 }
@@ -25,7 +25,7 @@ div.eventItem
 {
     color:black;
     font-size: 1.5vw;
-    text-shadow:0.8px 0.8px #000;
+    /*text-shadow:0.8px 0.8px #000;*/
 }
 .bookingInfo
 {

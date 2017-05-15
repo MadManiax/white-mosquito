@@ -55,21 +55,3 @@ if (isset($_GET['PastEvents'])) {
     }
     ?>
 </div>
-<script>
-$(function() {
-      $('#event-slider').slidesjs({
-        width: 900,
-        height: 528,
-        play: {
-          active: true,
-          auto: true,
-          interval: 6000,
-          swap: true
-        },
-        pagination:{
-        	active: false
-        }
-      });
-      $('a.slidesjs-stop.slidesjs-navigation').css('display', 'none');
-  });
-</script>
