@@ -1,4 +1,6 @@
 <!-- table rows -->
+
+<div id="pslides">
 <?php
 require_once("model/include_dao.php");
 $daoPress = DAOFactory::getDatPressDAO();
@@ -39,3 +41,4 @@ else
 }
 
 ?>
+</div>
