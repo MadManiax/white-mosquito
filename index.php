@@ -65,14 +65,35 @@ require_once("config.inc.php");
     $('#vslides').slidesjs({
         width: 940,
         height: 528,
-        play: {
+        /*play: {
           active: true,
           auto: true,
           interval: 4000,
           swap: true
-        },
+        },*/
         pagination:{
-          active: false
+          active: true,
+          // [boolean] Create pagination items.
+          // You cannot use your own pagination. Sorry.
+          effect: "fade"
+          // [string] Can be either "slide" or "fade".
+        },
+        play: {
+          active: true,
+            // [boolean] Generate the play and stop buttons.
+            // You cannot use your own buttons. Sorry.
+          effect: "slide",
+            // [string] Can be either "slide" or "fade".
+          interval: 5000,
+            // [number] Time spent on each slide in milliseconds.
+          auto: true,
+            // [boolean] Start playing the slideshow on load.
+          swap: true,
+            // [boolean] show/hide stop and play buttons
+          pauseOnHover: true,
+            // [boolean] pause a playing slideshow on hover
+          restartDelay: 2500
+            // [number] restart delay on inactive slideshow
         }
       });
       $('#event-slider').slidesjs({
@@ -80,12 +101,27 @@ require_once("config.inc.php");
         height: 528,
         play: {
           active: true,
+            // [boolean] Generate the play and stop buttons.
+            // You cannot use your own buttons. Sorry.
+          effect: "slide",
+            // [string] Can be either "slide" or "fade".
+          interval: 5000,
+            // [number] Time spent on each slide in milliseconds.
           auto: true,
-          interval: 6000,
-          swap: true
+            // [boolean] Start playing the slideshow on load.
+          swap: true,
+            // [boolean] show/hide stop and play buttons
+          pauseOnHover: true,
+            // [boolean] pause a playing slideshow on hover
+          restartDelay: 2500
+            // [number] restart delay on inactive slideshow
         },
         pagination:{
-            active: false
+            active: true,
+            // [boolean] Create pagination items.
+            // You cannot use your own pagination. Sorry.
+            effect: "fade"
+            // [string] Can be either "slide" or "fade".
         }
       });
       $('#slides').slidesjs({
@@ -93,12 +129,27 @@ require_once("config.inc.php");
               height: 528,
               play: {
                 active: true,
+                  // [boolean] Generate the play and stop buttons.
+                  // You cannot use your own buttons. Sorry.
+                effect: "slide",
+                  // [string] Can be either "slide" or "fade".
+                interval: 5000,
+                  // [number] Time spent on each slide in milliseconds.
                 auto: true,
-                interval: 4000,
-                swap: true
+                  // [boolean] Start playing the slideshow on load.
+                swap: true,
+                  // [boolean] show/hide stop and play buttons
+                pauseOnHover: true,
+                  // [boolean] pause a playing slideshow on hover
+                restartDelay: 2500
+                  // [number] restart delay on inactive slideshow
               },
               pagination:{
-                active: false
+                  active: true,
+                  // [boolean] Create pagination items.
+                  // You cannot use your own pagination. Sorry.
+                  effect: "fade"
+                  // [string] Can be either "slide" or "fade".
               }
             });
       
