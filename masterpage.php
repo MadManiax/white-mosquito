@@ -103,8 +103,8 @@
             <?php
                     require_once 'google_snippets.php';
             ?>
-            <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-            <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+            <script src="includes/js/jquery-3.2.1.min.js"></script>
+            <script src="includes/js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
             <?php echo $pageScripts; ?>
         </body>
     </html>

@@ -82,7 +82,7 @@ require_once("config.inc.php");
           active: true,
             // [boolean] Generate the play and stop buttons.
             // You cannot use your own buttons. Sorry.
-          effect: "slide",
+          effect: "fade",
             // [string] Can be either "slide" or "fade".
           interval: 5000,
             // [number] Time spent on each slide in milliseconds.
@@ -103,7 +103,7 @@ require_once("config.inc.php");
           active: true,
             // [boolean] Generate the play and stop buttons.
             // You cannot use your own buttons. Sorry.
-          effect: "slide",
+          effect: "fade",
             // [string] Can be either "slide" or "fade".
           interval: 5000,
             // [number] Time spent on each slide in milliseconds.
@@ -131,7 +131,7 @@ require_once("config.inc.php");
                 active: true,
                   // [boolean] Generate the play and stop buttons.
                   // You cannot use your own buttons. Sorry.
-                effect: "slide",
+                effect: "fade",
                   // [string] Can be either "slide" or "fade".
                 interval: 5000,
                   // [number] Time spent on each slide in milliseconds.
@@ -155,7 +155,15 @@ require_once("config.inc.php");
       
       $('a.slidesjs-stop.slidesjs-navigation').css('display', 'none');
     
-
+      var maxlength = 800;
+      $("div.pressText").each(function(){
+          var text = $(this).text();
+          if(text.length > maxlength)
+          {
+              text = text.substring(0,maxlength);
+              $(this).text(text+"...");
+          }
+      });
   });
 </script>
 

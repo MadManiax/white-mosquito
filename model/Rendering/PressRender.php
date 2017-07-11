@@ -7,21 +7,7 @@ if(!isset($_GET["pressId"]))
 {
 ?>
 
-<script type="text/javascript">
-    $(document).ready(function()
-    {
-        var maxlength = 800;
-        $("div.pressText").each(function(){
-            var text = $(this).text();
-            if(text.length > maxlength)
-            {
-                text = text.substring(0,maxlength);
-                $(this).text(text+"...");
-            }
-        });
-        
-    });
-</script>
+
 
 <?php
 	$today = date('Y-m-d');
