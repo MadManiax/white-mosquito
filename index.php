@@ -164,7 +164,7 @@ require_once("config.inc.php");
                   // [string] Can be either "slide" or "fade".
                 interval: 5000,
                   // [number] Time spent on each slide in milliseconds.
-                auto: true,
+                auto: false,
                   // [boolean] Start playing the slideshow on load.
                 swap: true,
                   // [boolean] show/hide stop and play buttons
@@ -219,7 +219,13 @@ include("model/Rendering/VideoSlider.php")
 </div>
 <div class="clear"></div>
 
-
+<div class="stack">
+<h1 class="center">Music</h1>
+<h3>Superego - Orzorock Music</h3>
+<iframe src="https://open.spotify.com/embed/album/1kgO75ylHeFqCRJ2IE2RPA" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+<h3>Il Potere e la sua Signora - Riserva Sonora</h3>
+<iframe src="https://open.spotify.com/embed/album/1zYwqA7VRblYyRGKgnKm9P" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+</div>
 <div class="stack">
 <h1 class="center">Tour</h1>
 
