@@ -42,6 +42,7 @@ require_once("config.inc.php");
 <link rel="stylesheet" type="text/css" href="includes/css/discografia.css"/>
 <link rel="stylesheet" type="text/css" href="includes/css/video.css"/>
 <link rel="stylesheet" type="text/css" href="includes/sliderjs/css/slider.css"/>
+<link rel="stylesheet" type="text/css" href="includes/css/player.css"/>
 
 <?php
   //Assign all Page Specific variables
@@ -57,7 +58,7 @@ require_once("config.inc.php");
 ?>
 
 <script src="includes/page_js/home.js"></script>
-
+<script src="includes/page_js/player.js"></script>
 <script src="includes/sliderjs/js/jquery.slides.min.js"></script>
 
 <script type="text/javascript">
@@ -221,10 +222,9 @@ include("model/Rendering/VideoSlider.php")
 
 <div class="stack">
 <h1 class="center">Music</h1>
-<h3>Superego - Orzorock Music</h3>
-<iframe src="https://open.spotify.com/embed/album/1kgO75ylHeFqCRJ2IE2RPA" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
-<h3>Il Potere e la sua Signora - Riserva Sonora</h3>
-<iframe src="https://open.spotify.com/embed/album/1zYwqA7VRblYyRGKgnKm9P" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+
+<?php include_once("model/Rendering/Player.php") ?>
+
 </div>
 <div class="stack">
 <h1 class="center">Tour</h1>
